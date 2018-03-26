@@ -1,0 +1,25 @@
+uuid: 71a72f70-073c-45db-8081-d77e4f17fc36
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cotailored_wireframe
+_core:
+  default_config_hash: mRt9Zgc68wGh9K4ACpSw0p109Tc8mra1LwnltH8O5oU
+id: cotailored_wireframe_branding
+theme: cotailored_wireframe
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

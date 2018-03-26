@@ -1,0 +1,30 @@
+uuid: e09aec0b-1dd5-4fce-8b60-74e0135b55fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style
+    - paragraphs.paragraphs_type.landing_page_columns
+id: paragraph.landing_page_columns.field_style
+field_name: field_style
+entity_type: paragraph
+bundle: landing_page_columns
+label: Style
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: classy_paragraphs
+  handler_settings:
+    filter:
+      type: target_bundles
+      target_bundles:
+        boxed: boxed
+        coloured_dark: 0
+        coloured: 0
+      negate: 1
+    sort:
+      field: _none
+field_type: entity_reference

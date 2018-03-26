@@ -1,0 +1,73 @@
+// ========================================
+//
+// @file _settings.scss
+// Fonts, colors, breakpoints and other various variables
+//
+// ========================================
+
+// - - - - - - - - - - - - - - - - - - - -
+// Base font size
+// - - - - - - - - - - - - - - - - - - - -
+$base-font-size: 16px;
+
+// - - - - - - - - - - - - - - - - - - - -
+// Colors
+// - - - - - - - - - - - - - - - - - - - -
+
+$color-white: white;
+$color-black: black;
+
+// Grays
+// -----------------------------------------------------------------------------
+
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+// Brand colors
+// -----------------------------------------------------------------------------
+
+$brand-primary:         #3f0184 !default;
+$brand-primary-alt:     #7e7cce !default;
+$brand-primary-light:   #c7c6f5 !default;
+$brand-secondary:       #27084a !default;
+$brand-success:         #5cb85c !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+$brand-info:            #11a03b !default;
+
+// Links
+// -----------------------------------------------------------------------------
+$link-color:            lighten($brand-primary , 10%) !default;
+$link-hover-color:      $brand-primary;
+
+
+// Tables
+
+$table-tr-hover:        lighten($brand-primary-alt , 34%);
+
+// Forms
+// -----------------------------------------------------------------------------
+$input-border:          lighten($brand-primary-alt, 20%) !default;
+$paragraph-settings:    #f7f7f7 !default;
+
+
+// - - - - - - - - - - - - - - - - - - - -
+// Fonts
+// - - - - - - - - - - - - - - - - - - - -
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext');
+
+
+$font-heading: 'Open Sans', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+
+// - - - - - - - - - - - - - - - - - - - -
+// Images
+// - - - - - - - - - - - - - - - - - - - -
+$image-root: "../images/";
+
+

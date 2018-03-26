@@ -1,0 +1,15 @@
+uuid: d5123dba-6319-4fbd-880d-a4ba8f21c7d7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'subscribe to newsletters'
+  - 'use text format rich_editor'
+  - 'view media'

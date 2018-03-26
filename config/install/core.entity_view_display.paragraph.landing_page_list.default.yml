@@ -1,0 +1,28 @@
+uuid: 7367dab4-f022-4983-9308-922ff7e78122
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_list.field_paragraph_column
+    - field.field.paragraph.landing_page_list.field_style
+    - field.field.paragraph.landing_page_list.field_view
+    - paragraphs.paragraphs_type.landing_page_list
+  module:
+    - viewsreference
+id: paragraph.landing_page_list.default
+targetEntityType: paragraph
+bundle: landing_page_list
+mode: default
+content:
+  field_view:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden:
+  field_paragraph_column: true
+  field_style: true

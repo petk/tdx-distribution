@@ -1,0 +1,23 @@
+uuid: bf56cf8d-af77-41d4-9428-5fc816f97923
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style
+    - paragraphs.paragraphs_type.landing_page_list
+id: paragraph.landing_page_list.field_style
+field_name: field_style
+entity_type: paragraph
+bundle: landing_page_list
+label: Style
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

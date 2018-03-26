@@ -1,0 +1,59 @@
+uuid: 5a188b6b-b0f4-4151-aa7a-abdc85324532
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_editor
+  module:
+    - ckeditor
+format: rich_editor
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Format
+            - Bold
+            - Italic
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyBlock
+            - JustifyRight
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - file_browser
+            - DrupalImage
+        -
+          name: Tools
+          items:
+            - Table
+            - Source
+            - Styles
+  plugins:
+    stylescombo:
+      styles: a.cta|CTA
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

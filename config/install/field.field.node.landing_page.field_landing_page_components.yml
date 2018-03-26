@@ -1,0 +1,59 @@
+uuid: 559a5b7f-fdee-47d8-875a-9e1c14ffa591
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_components
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.landing_page_columns
+    - paragraphs.paragraphs_type.landing_page_highlight
+    - paragraphs.paragraphs_type.landing_page_slider
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_landing_page_components
+field_name: field_landing_page_components
+entity_type: node
+bundle: landing_page
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      landing_page_columns: landing_page_columns
+      landing_page_highlight: landing_page_highlight
+      landing_page_slider: landing_page_slider
+    target_bundles_drag_drop:
+      landing_page_columns:
+        enabled: true
+        weight: 8
+      landing_page_box:
+        weight: 9
+        enabled: false
+      landing_page_form:
+        weight: 9
+        enabled: false
+      landing_page_image:
+        weight: 10
+        enabled: false
+      landing_page_list:
+        weight: 11
+        enabled: false
+      landing_page_rich_text:
+        weight: 12
+        enabled: false
+      landing_page_highlight:
+        enabled: true
+        weight: 13
+      landing_page_slider:
+        enabled: true
+        weight: 13
+      slide:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

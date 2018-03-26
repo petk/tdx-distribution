@@ -1,0 +1,21 @@
+uuid: 6dc7ca53-97cb-4d4e-93b9-bd1838298b0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.landing_page_box
+  module:
+    - options
+id: paragraph.landing_page_box.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: landing_page_box
+label: Type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

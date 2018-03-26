@@ -1,0 +1,21 @@
+uuid: 48006ec7-9465-4bc4-a714-fcd9eedb3922
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_landing_page_components
+    - node.type.landing_page
+  module:
+    - user
+id: node.landing_page.teaser
+targetEntityType: node
+bundle: landing_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_landing_page_components: true
+  field_landing_page_description: true

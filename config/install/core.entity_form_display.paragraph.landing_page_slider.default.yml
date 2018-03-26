@@ -1,0 +1,37 @@
+uuid: 5e2c0756-f201-4583-b6eb-bb754151bd23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_slider.field_slides
+    - paragraphs.paragraphs_type.landing_page_slider
+  module:
+    - content_moderation
+    - paragraphs
+id: paragraph.landing_page_slider.default
+targetEntityType: paragraph
+bundle: landing_page_slider
+mode: default
+content:
+  field_slides:
+    type: entity_reference_paragraphs
+    weight: 101
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

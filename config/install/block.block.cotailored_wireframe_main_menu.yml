@@ -1,0 +1,26 @@
+uuid: 38be7115-0cd0-4e7d-af6a-b5a781bbd0aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cotailored_wireframe
+_core:
+  default_config_hash: _VSQlCYS2BLi38_IfB0y--AQ2EpsFCnpUjGn7DZwl5M
+id: cotailored_wireframe_main_menu
+theme: cotailored_wireframe
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

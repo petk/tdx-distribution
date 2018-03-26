@@ -1,0 +1,21 @@
+uuid: 66c6d136-11e8-4fd8-ac46-155f611d7bd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_column
+    - paragraphs.paragraphs_type.landing_page_list
+  module:
+    - options
+id: paragraph.landing_page_list.field_paragraph_column
+field_name: field_paragraph_column
+entity_type: paragraph
+bundle: landing_page_list
+label: 'Column size'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

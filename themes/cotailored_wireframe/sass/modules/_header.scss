@@ -1,0 +1,56 @@
+// ========================================
+//
+// @file _header.scss
+// Header element on the page
+//
+// ========================================
+
+header[role="header"] {
+  position: relative;
+  padding: 20px 0;
+  background-color: $color-white;
+  color: $brand-primary;
+  border-bottom: 1px solid $brand-primary;
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  a {
+    display: block;
+    color: $link-color;
+  }
+}
+
+.region-header {
+  @include make-row;
+  .block {
+    @extend %col;
+    margin-bottom: 0;
+  }
+}
+
+.block.branding {
+  position: relative;
+  flex-wrap: wrap;
+  z-index: 10;
+  .site-name,
+  .site-slogan {
+    opacity: 0.8;
+  }
+
+  a {
+    width: 160px;
+    @media (min-width: $screen-md-min) {
+      width: 240px;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

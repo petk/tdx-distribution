@@ -1,0 +1,36 @@
+uuid: 6d28fcfc-549b-4122-be4f-522942c981e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_paragraph_column
+field_name: field_paragraph_column
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: one-quarter
+      label: 'One quarter'
+    -
+      value: one-third
+      label: 'One third'
+    -
+      value: half
+      label: Half
+    -
+      value: two-thirds
+      label: Two-thirds
+    -
+      value: three-quarters
+      label: Three-quarters
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

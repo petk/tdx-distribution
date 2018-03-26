@@ -1,0 +1,88 @@
+// ========================================
+//
+// @file _core.scss
+// Main core import file
+//
+// ========================================
+
+.messages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+
+  a {
+    font-weight: bold;
+  }
+
+  &.hide {
+    display: none;
+  }
+
+  &.messages--status {
+    background-color: $success;
+  }
+
+  &.messages--warning {
+    background-color: $warning;
+    #dismiss_message {
+      background-color: #e49017;
+    }
+  }
+
+  &.messages--error {
+    background-color: $danger;
+    #dismiss_message {
+      background-color: #eb514d;
+    }
+  }
+
+  .placeholder {
+    display: inline-block;
+    margin: 0 5px;
+    font-style: normal;
+  }
+
+  #dismiss_message {
+    @include cta(dark);
+    margin-left: auto;
+  }
+}
+
+.node-preview-container {
+  position: static;
+  background-color: #eae4f2;
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    > a {
+      display: block;
+      margin-right: 20px;
+    }
+
+    > div {
+      flex: 1;
+    }
+
+    .js-form-type-select {
+      position: relative;
+      margin: 0;
+
+      label {
+        display: inline-block;
+        font-family: $font-text;
+      }
+
+      select {
+        padding: 5px 30px 5px 10px;
+        border: 2px solid #bd9be3;
+        margin: 0;
+        @include image('select.svg');
+        background-position: right 10px center;
+        background-size: 10px 8px;
+        @include font-size(1.4);
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+// ========================================
+//
+// @file _base.scss
+// Base styles
+//
+// ========================================
+
+.settings {
+  margin-top: 20px;
+  background-color: $paragraph-settings;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  border-top: 1px solid $brand-primary-light;
+
+  h3,label,legend, .form-composite > legend {
+    font-weight: 600;
+  }
+
+  > h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 20px 0 0;
+    padding-right: 20px;
+    border-right: 1px dotted $brand-primary-light;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  > .form-wrapper {
+    margin-right: 20px;
+    &:nth-child(2) {
+      flex: none;
+    }
+
+    &:nth-child(3) {
+      flex: auto;
+    }
+
+    > .form-item {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      > label {
+        margin-right: 10px;
+      }
+    }
+
+    > fieldset {
+      > legend {
+        margin-right: 20px;
+      }
+
+      > .fieldset-wrapper {
+        margin-top: 5px;
+        .form-checkboxes {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+
+      .form-item {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.settings > .fieldset-wrapper {
+  .field--widget-options-buttons > .fieldgroup {
+    width: 100%;
+  }
+}
+
+.js {
+  input.paragraph-type-add-modal-button {
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+}
+
+
+.paragraph-form .field--name-field-link {
+  .fieldset-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    > div {
+      flex: 0 1 0;
+      margin-right: 20px;
+    }
+  }
+}

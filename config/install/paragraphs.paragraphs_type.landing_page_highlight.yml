@@ -1,0 +1,9 @@
+uuid: e7fe2ff7-e966-4d29-8ca3-9eb8e583856b
+langcode: en
+status: true
+dependencies: {  }
+id: landing_page_highlight
+label: Highlight
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

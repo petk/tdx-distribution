@@ -1,0 +1,14 @@
+uuid: 796e6ace-53a6-4eb9-a84a-2f36b34101c3
+langcode: en
+status: true
+dependencies: {  }
+name: paragraph_box
+label: 'Paragraph Box'
+effects:
+  608657ee-4660-4d21-863f-1d62a3a85c8c:
+    uuid: 608657ee-4660-4d21-863f-1d62a3a85c8c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 460
+      height: 460

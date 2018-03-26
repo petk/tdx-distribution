@@ -1,0 +1,165 @@
+// ========================================
+//
+// @file _forms.scss
+// Forms import file
+//
+// ========================================
+
+input[type=checkbox]:checked {
+  background: $brand-primary;
+  box-shadow: inset 0px 0px 0px 3px $color-white;
+}
+
+.adminimal {
+  input.form-autocomplete,
+  input.form-text,
+  input.form-tel,
+  input.form-email,
+  input.form-url,
+  input.form-search,
+  input.form-number,
+  input.form-color,
+  input.form-file,
+  input.form-date,
+  input.form-time,
+  textarea.form-textarea {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+
+  select {
+    min-height: 36px;
+    border-radius: 3px;
+    background-position: 95% 60%;
+    &:hover,
+    &:focus {
+      background-position: 95% 60%;
+    }
+  }
+}
+
+
+
+.view-id-content {
+  .view-filters {
+    .form--inline {
+      display: flex;
+      flex-wrap: wrap;
+
+      .form-actions {
+        align-self: flex-end;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .view-content {
+    .views-form {
+      [data-drupal-selector="edit-node-bulk-form"] {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        .form-actions {
+          margin-left: 10px;
+          margin-bottom: 10px;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
+
+// Paragraphs form adjustments
+.field--name-field-landing-page-components,
+#field-landing-page-elements-add-more-wrapper {
+  .tabledrag-toggle-weight-wrapper {
+    display: none;
+  }
+}
+
+.field-group-html-element.description {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  h3 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 15px 20px;
+    color: #909090;
+    &:hover {
+      cursor: pointer;
+    }
+    &:before {
+      content: '';
+      margin-right: 10px;
+      border-style: solid;
+      border-width: 0.15em 0.15em 0 0;
+      display: inline-block;
+      height: 0.45em;
+      left: 0.15em;
+      position: relative;
+      top: -3px;
+      transform: rotate(135deg);
+      vertical-align: top;
+      width: 0.45em;
+    }
+  }
+
+  .field--name-field-landing-page-description {
+    display: none;
+    padding: 0 20px;
+    label {
+      display: none;
+    }
+  }
+
+  &.open {
+
+    h3:before {
+      top: 0.15em;
+      transform: rotate(-45deg);
+    }
+
+    .field--name-field-landing-page-description {
+      display: block;
+    }
+  }
+}
+
+// Media
+#edit-field-media-image {
+  .media--type-image {
+    float: left;
+    margin-right: 30px;
+
+    img {
+      width: auto;
+      height: 70px;
+      object-fit: cover;
+    }
+  }
+
+  .item-container > input {
+    display: block;
+    margin: 5px 0;
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+}
+
+div[id^="edit-field-media-image"] {
+  input.button {
+    margin: 10px 0;
+  }
+}
+
+// Moderation
+#edit-moderation-state-0 {
+  margin: 10px 0;
+  #edit-moderation-state-0-current {
+    display: none;
+  }
+}

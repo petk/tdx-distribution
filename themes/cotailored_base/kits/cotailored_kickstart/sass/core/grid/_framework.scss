@@ -1,0 +1,43 @@
+// ========================================
+//
+// @file _framework.scss
+// Framework mixins to build the grid
+//
+// ========================================
+
+@mixin make-grid-columns($i: 1, $list: ".is-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .is-#{$i}";
+  }
+  #{$list} {
+    position: relative;
+    flex: none;
+    padding-left: $grid-gutter-width;
+    padding-right: $grid-gutter-width;
+  }
+}
+
+@mixin flex-grid-columns($class, $i: 1, $list: ".is-#{$class}-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .is-#{$class}-#{$i}";
+  }
+}
+
+@mixin calc-grid-column($index, $class, $type) {
+  @if ($type == width) and ($index > 0) {
+    .is-#{$class}-#{$index} {
+      width: percentage(($index / $grid-columns));
+    }
+  }
+}
+
+@mixin loop-grid-columns($columns, $class, $type) {
+  @for $i from 0 through $columns {
+    @include calc-grid-column($i, $class, $type);
+  }
+}
+
+@mixin make-grid($class) {
+  @include flex-grid-columns($class);
+  @include loop-grid-columns($grid-columns, $class, width);
+}

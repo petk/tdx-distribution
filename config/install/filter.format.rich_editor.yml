@@ -1,0 +1,37 @@
+uuid: 0749df80-3bcb-4e30-bfeb-01ea895278dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_embed
+name: 'Rich editor'
+format: rich_editor
+weight: 0
+filters:
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: true
+    weight: 0
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button> <img src alt data-entity-type data-entity-uuid data-align data-caption> <iframe> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <p>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

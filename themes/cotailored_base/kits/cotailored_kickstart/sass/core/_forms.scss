@@ -1,0 +1,15 @@
+.form-item {
+  margin-bottom: 15px;
+
+  input.form-text,
+  input.form-email,
+  textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $input-border;
+  }
+}
+
+input.form-submit {
+  @include cta('dark');
+}

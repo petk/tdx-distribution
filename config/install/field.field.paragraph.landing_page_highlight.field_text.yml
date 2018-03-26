@@ -1,0 +1,21 @@
+uuid: 177168a5-b530-4baf-a367-eebaac5fd86e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.landing_page_highlight
+  module:
+    - text
+id: paragraph.landing_page_highlight.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: landing_page_highlight
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

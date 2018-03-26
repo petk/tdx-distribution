@@ -1,0 +1,22 @@
+uuid: 087caa04-ed90-4eb8-afc2-77f856dd7bb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cotailored_wireframe
+_core:
+  default_config_hash: 3IPajlCkPyMhAGNXkhgdf5XCjy8J33g_WS2vW1JBzvc
+id: cotailored_wireframe_content
+theme: cotailored_wireframe
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

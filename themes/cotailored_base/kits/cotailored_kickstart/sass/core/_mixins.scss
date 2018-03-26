@@ -1,0 +1,112 @@
+// ========================================
+//
+// @file _mixins.scss
+// File containing all Sass mixins
+//
+// ========================================
+
+// - - Output property and value in rem with px fallback
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+// - - Clearfix
+@mixin clearfix {
+	zoom: 1;
+
+	&:before,
+	&:after {
+		content: "\0020";
+		display: block;
+		height: 0;
+		overflow: hidden;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+//helper for backgorund image
+@mixin image($image_name){
+  // Set properties individually to allow for other background property additions.
+  background-image: url($image-root + $image_name);
+  background-repeat: no-repeat;
+}
+
+
+// - - Image for retina
+@mixin image-2x ($image, $width, $height) {
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+		background-image: url($image);
+		background-size: $width $height;
+	}
+}
+
+// - - CSS calc function
+@mixin calc ($property, $expression) {
+	#{$property}: calc(#{$expression});
+}
+
+@mixin cta($bg: 'light') {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  transition: .2s all;
+  font-weight: 700;
+  color: $brand-primary;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: none;
+    transition: .2s all;
+  }
+
+  @if $bg == 'light' {
+    border: 1px solid $brand-primary;
+    background: $color-white;
+
+    &:after {
+      content: "";
+      display: block;
+      margin-left: 5px;
+      width: 5px;
+      height: 10px;
+      @include image('chevron.svg');
+      background-position: right center;
+      background-size: contain;
+    }
+
+    &:hover {
+      border: 1px solid $brand-primary-alt;
+      color: $brand-primary;
+    }
+  }
+
+  @if $bg == 'dark' {
+    color: $color-white;
+    background: $brand-primary;
+
+    &:hover {
+      background: $brand-secondary;
+    }
+  }
+}
+
+@mixin overlay($color, $opacity: 0.9) {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: $color;
+  filter: opacity($opacity);
+  z-index: 1;
+}

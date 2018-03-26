@@ -1,0 +1,145 @@
+// ========================================
+//
+// @file _navigation.scss
+// All the navigation elements on the page
+//
+// ========================================
+
+.navigation.menu--main,
+nav.tabs {
+  display: flex;
+  align-items: center;
+  > ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    > li {
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.navigation.menu--main {
+  position: fixed;
+  left: -150%;
+  top: 80px;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 5;
+
+  @media (min-width: $screen-md-min) {
+    position: static;
+    flex-direction: row;
+  }
+
+  > ul {
+    flex-direction: column;
+    justify-content: center;
+    @media (min-width: $screen-md-min) {
+      position: relative;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
+    > li:not(:first-child) {
+      border-left: 1px solid rgba(255, 255, 255,0.3);
+    }
+
+    a {
+      position: relative;
+      display: block;
+      font-family: $font-heading;
+      font-weight: 700;
+      text-align: center;
+
+      &.is-active:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        right: 20px;
+        height: 2px;
+        background-color: $brand-primary;
+      }
+
+      &:hover {
+        color: $color-black;
+      }
+
+      &.highlighted {
+        @media (min-width: $screen-md-min) {
+          @include cta('dark');
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+body.mobile-menu-open {
+  overflow: hidden;
+  .navigation.menu--main {
+    left: 0;
+  }
+}
+
+nav.tabs {
+  > ul {
+    a {
+      background-color: $gray-lighter;
+    }
+  }
+}
+
+// Mobile navigation
+
+.burger {
+  @extend %flex-center-vertical;
+  position: absolute;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  top: 50%;
+  z-index: 11;
+
+  @media (min-width: $screen-md-min) {
+    display: none;
+  }
+
+  .line-wrapper {
+    width: 100%;
+  }
+
+  .line {
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    background-color: $brand-primary;
+    transition: 0.2s ease-in-out;
+  }
+
+  &.open {
+    .line{
+      &:nth-child(1){
+        transform: rotate(45deg) translateX(5px) translateY(5px);
+        transition-delay: 0.2s;
+      }
+      &:nth-child(2){
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      &:nth-child(3){
+        transform: rotate(-45deg) translateX(5px) translateY(-5px);
+        transition-delay: 0.2s;
+      }
+    }
+  }
+}
+

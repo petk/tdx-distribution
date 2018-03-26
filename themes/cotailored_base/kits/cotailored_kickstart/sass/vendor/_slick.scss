@@ -1,0 +1,47 @@
+// ========================================
+//
+// @file _slick.scss
+// Slick styles
+//
+// ========================================
+
+.slick {
+  position: relative;
+}
+
+.slick__arrow {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  button {
+    @include image('chevron.svg');
+    @extend %button-reset;
+    position: absolute;
+    text-indent: -9999px;
+    width: 15px;
+    height: 30px;
+    background-size: contain;
+
+    @media (min-width: $screen-sm-min) {
+      width: 20px;
+      height: 40px;
+    }
+
+    &.slick-prev {
+      left: 10px;
+      transform: rotate(-180deg);
+      @media (min-width: $screen-sm-min) {
+        left: 20px;
+      }
+    }
+
+    &.slick-next {
+      right: 10px;
+      @media (min-width: $screen-sm-min) {
+        right: 20px;
+      }
+    }
+  }
+}

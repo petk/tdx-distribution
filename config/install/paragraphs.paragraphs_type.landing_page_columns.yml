@@ -1,0 +1,11 @@
+uuid: 1c2e597c-4414-4c88-bde8-ea2a22952320
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:a71eea79-3ff9-42bf-9dd4-0cd1b60e1d35'
+id: landing_page_columns
+label: Columns
+icon_uuid: a71eea79-3ff9-42bf-9dd4-0cd1b60e1d35
+description: ''
+behavior_plugins: {  }

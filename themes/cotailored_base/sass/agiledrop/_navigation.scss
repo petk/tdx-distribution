@@ -1,0 +1,18 @@
+// ========================================
+//
+// @file _navigation.scss
+// All the navigation elements on the page
+//
+// ========================================
+
+ul.menu,
+.tabs ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    a {
+      text-decoration: none;
+    }
+  }
+}

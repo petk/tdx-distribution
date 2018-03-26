@@ -1,0 +1,20 @@
+# OS generated files #
+######################
+Icon
+.DS_Store
+
+# Node.js packages #
+####################
+bower_components
+node_modules
+package-lock.json
+
+# Sublime Text #
+################
+sftp-settings.json
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+assets/stylesheets/application.css.map
+assets/scripts/application.js.map

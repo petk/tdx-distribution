@@ -1,0 +1,52 @@
+uuid: cc6905a3-f37e-49a3-b917-1ce387be9051
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_highlight.field_background_image
+    - field.field.paragraph.landing_page_highlight.field_image
+    - field.field.paragraph.landing_page_highlight.field_text
+    - field.field.paragraph.landing_page_highlight.field_title
+    - paragraphs.paragraphs_type.landing_page_highlight
+  module:
+    - image
+    - text
+id: paragraph.landing_page_highlight.default
+targetEntityType: paragraph
+bundle: landing_page_highlight
+mode: default
+content:
+  field_background_image:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,11 @@
+uuid: 5142ffcb-46ed-495a-9dec-c5992dc38dca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:a2d5f35e-38e9-4112-97b9-7a839d812b10'
+id: landing_page_rich_text
+label: 'Rich text'
+icon_uuid: a2d5f35e-38e9-4112-97b9-7a839d812b10
+description: ''
+behavior_plugins: {  }

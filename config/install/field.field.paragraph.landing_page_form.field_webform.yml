@@ -1,0 +1,29 @@
+uuid: 235c27d8-6daf-493f-b436-c42cdd321aa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_webform
+    - paragraphs.paragraphs_type.landing_page_form
+  module:
+    - webform
+id: paragraph.landing_page_form.field_webform
+field_name: field_webform
+entity_type: paragraph
+bundle: landing_page_form
+label: Form
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

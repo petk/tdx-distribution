@@ -1,0 +1,19 @@
+uuid: 6d557164-b273-4197-83f8-86decec3700d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'Default newsletter'
+id: default
+description: 'This is an example newsletter. Change it.'
+format: html
+priority: 3
+receipt: true
+from_name: CoTailored
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: iztok@cotailored.com
+hyperlinks: false
+new_account: none
+opt_inout: single
+weight: 0

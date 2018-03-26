@@ -1,0 +1,7 @@
+uuid: 7569c2d8-af12-43cf-84cb-943849f52a26
+langcode: en
+status: true
+dependencies: {  }
+id: coloured
+label: 'Coloured light'
+classes: coloured-light

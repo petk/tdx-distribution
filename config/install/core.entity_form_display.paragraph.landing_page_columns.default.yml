@@ -1,0 +1,69 @@
+uuid: ba647bcd-8e69-463c-8b19-ea6c1a136019
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_columns.field_landing_page_elements
+    - field.field.paragraph.landing_page_columns.field_paragraph_container
+    - field.field.paragraph.landing_page_columns.field_style
+    - paragraphs.paragraphs_type.landing_page_columns
+  module:
+    - field_group
+    - paragraphs
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_paragraph_container
+        - field_style
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        label: Settings
+        element: div
+        show_label: true
+        label_element: h3
+        required_fields: true
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: settings
+      label: Settings
+id: paragraph.landing_page_columns.default
+targetEntityType: paragraph
+bundle: landing_page_columns
+mode: default
+content:
+  field_landing_page_elements:
+    type: paragraphs
+    weight: 3
+    settings:
+      title: Element
+      title_plural: Elements
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: modal
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_paragraph_container:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_style:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

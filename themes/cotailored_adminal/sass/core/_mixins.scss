@@ -1,0 +1,13 @@
+// ========================================
+//
+// @file _mixins.scss
+// File containing all Sass mixins
+//
+// ========================================
+
+//helper for backgorund image
+@mixin image($image_name){
+  // Set properties individually to allow for other background property additions.
+  background-image: url($image-root + $image_name);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,9 @@
+uuid: a4446596-3fc5-4c59-847e-6a4971fdd4f2
+langcode: en
+status: true
+dependencies: {  }
+id: landing_page_box
+label: Box
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

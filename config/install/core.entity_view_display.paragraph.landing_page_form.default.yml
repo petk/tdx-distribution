@@ -1,0 +1,27 @@
+uuid: 62f5bbf9-160b-49b5-bcaf-2a10d0911992
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_form.field_paragraph_column
+    - field.field.paragraph.landing_page_form.field_style
+    - field.field.paragraph.landing_page_form.field_webform
+    - paragraphs.paragraphs_type.landing_page_form
+  module:
+    - webform
+id: paragraph.landing_page_form.default
+targetEntityType: paragraph
+bundle: landing_page_form
+mode: default
+content:
+  field_webform:
+    weight: 0
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  field_paragraph_column: true
+  field_style: true

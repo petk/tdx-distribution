@@ -1,0 +1,23 @@
+uuid: b172057a-6a24-468f-86d4-76e3a2c26374
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic
+label: Basic
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  ec7fc199-a114-4175-9976-d27bb34187c9:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+      landing_page: landing_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ec7fc199-a114-4175-9976-d27bb34187c9
+selection_logic: and
+weight: -5
+relationships: {  }

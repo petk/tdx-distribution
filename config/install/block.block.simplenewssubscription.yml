@@ -1,0 +1,32 @@
+uuid: 8d96da19-9123-40ce-83e2-db2447a004e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - simplenews
+  theme:
+    - cotailored_wireframe
+id: simplenewssubscription
+theme: cotailored_wireframe
+region: sidebar
+weight: 0
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Simplenews subscription'
+  provider: simplenews
+  label_display: visible
+  newsletters:
+    default: default
+  message: 'Stay informed - subscribe to our newsletter.'
+  unique_id: 56da6646-eafd-4578-9d68-c09d9550c309
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

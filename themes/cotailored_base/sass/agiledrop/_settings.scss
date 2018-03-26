@@ -1,0 +1,40 @@
+// - - - - - - - - - - - - - - - - - - - -
+// Colors
+// - - - - - - - - - - - - - - - - - - - -
+$color-white: white;
+$color-black: black;
+
+// Grays
+// -----------------------------------------------------------------------------
+
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+// Brand colors
+// -----------------------------------------------------------------------------
+
+$brand-primary:         #484dbd !default;
+$brand-secondary:       #333 !default;
+
+$success:         #bbfebb !default;
+$warning:         #ffd598 !default;
+$danger:          #ffbab9 !default;
+
+$green:           #008147;
+
+
+// - - - - - - - - - - - - - - - - - - - -
+// Fonts
+// - - - - - - - - - - - - - - - - - - - -
+
+$font-heading: 'Open Sans', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+
+// - - - - - - - - - - - - - - - - - - - -
+// Images
+// - - - - - - - - - - - - - - - - - - - -
+$image-root: "../images/";

@@ -1,0 +1,74 @@
+uuid: a3dd190c-c542-4331-9775-7da60cd3384c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_image.field_image
+    - field.field.paragraph.landing_page_image.field_paragraph_column
+    - field.field.paragraph.landing_page_image.field_style
+    - paragraphs.paragraphs_type.landing_page_image
+  module:
+    - blazy
+id: paragraph.landing_page_image.default
+targetEntityType: paragraph
+bundle: landing_page_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      style: ''
+      image_style: large
+      thumbnail_style: ''
+      responsive_image_style: ''
+      media_switch: ''
+      ratio: ''
+      grid: null
+      grid_medium: null
+      grid_small: null
+      sizes: ''
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      grid_header: ''
+      iframe_lazy: true
+      icon: ''
+      layout: ''
+      view_mode: ''
+      cache: 0
+      optionset: default
+      skin: ''
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      box_media_style: ''
+    third_party_settings: {  }
+    type: blazy
+    region: content
+hidden:
+  field_paragraph_column: true
+  field_style: true

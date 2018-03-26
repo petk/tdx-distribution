@@ -1,0 +1,7 @@
+uuid: 4bad834c-7821-401c-8118-1e69fadd5d34
+langcode: en
+status: true
+dependencies: {  }
+id: boxed
+label: Boxed
+classes: boxed

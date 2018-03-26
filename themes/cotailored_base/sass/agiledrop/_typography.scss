@@ -1,0 +1,76 @@
+// ========================================
+//
+// @file _typography.scss
+// Base level typography, fonts, colors, sizes
+//
+// ========================================
+
+p {
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+}
+
+a {
+  transition: 0.4s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  a {
+    color: inherit;
+
+    &:hover {
+    }
+  }
+}
+
+h1 {
+  @include font-size(3.6);
+}
+
+h2 {
+  @include font-size(3.0);
+}
+
+h3 {
+  @include font-size(2.4);
+}
+
+h4 {
+  @include font-size(2.0);
+}
+
+h5 {
+  @include font-size(1.8);
+}
+
+h6 {
+  @include font-size(1.6);
+}
+
+ul {
+
+  li {
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ol {
+
+  li {
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+// ========================================
+//
+// @file _base.scss
+// Base import file
+//
+// ========================================
+
+
+a, button.link {
+  color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.adminimal {
+  thead th {
+    background-color: $paragraph-settings;
+  }
+
+  tbody tr:hover {
+    background: $table-tr-hover;
+  }
+}
+
+

@@ -1,0 +1,22 @@
+uuid: f216d443-e1ff-487f-9d0a-c3a143a3f183
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cotailored_wireframe
+_core:
+  default_config_hash: 0oubjwUQFRm61hnVSJK7t9SOTqw32UN3Wsb14N26SOE
+id: cotailored_wireframe_powered
+theme: cotailored_wireframe
+region: copyright
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

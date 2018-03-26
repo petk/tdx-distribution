@@ -1,0 +1,49 @@
+uuid: d3737d09-af08-4353-8b02-c16cbf25b59a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slides
+    - paragraphs.paragraphs_type.landing_page_slider
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: paragraph.landing_page_slider.field_slides
+field_name: field_slides
+entity_type: paragraph
+bundle: landing_page_slider
+label: Slides
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      slide: slide
+    target_bundles_drag_drop:
+      landing_page_columns:
+        weight: 8
+        enabled: false
+      landing_page_form:
+        weight: 9
+        enabled: false
+      landing_page_image:
+        weight: 10
+        enabled: false
+      landing_page_list:
+        weight: 11
+        enabled: false
+      landing_page_rich_text:
+        weight: 12
+        enabled: false
+      landing_page_slider:
+        weight: 13
+        enabled: false
+      slide:
+        enabled: true
+        weight: 14
+field_type: entity_reference_revisions

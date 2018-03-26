@@ -1,0 +1,50 @@
+// ========================================
+//
+// @file _pages.scss
+// Main pages import file
+//
+// ========================================
+@import 'nodes';
+@import 'landing';
+
+body {
+  &.page-node-type-basic-page,
+  &.page-node-type-blog-post,
+  &.path-webform,
+  &.path-user,
+  &.path-taxonomy {
+    main {
+      @extend .container;
+    }
+    .layout-wrapper {
+      @include make-row;
+    }
+  }
+
+  &.path-user,
+  &.path-webform {
+    main {
+      margin-top: 40px;
+    }
+  }
+}
+
+// Views pages
+[class*="view-display-id-page"] {
+  &.view-blog,
+  &.view-taxonomy-term {
+    @extend .container;
+    margin-top: 40px;
+    .view-content {
+      @extend %row-3;
+    }
+  }
+}
+
+[class*="view-id-paragraph"] {
+  .views-row {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed $brand-primary-alt;
+  }
+}

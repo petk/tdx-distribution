@@ -1,0 +1,19 @@
+uuid: e4176c13-c24e-4c75-a462-13c4304027eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.landing_page_box
+id: paragraph.landing_page_box.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: landing_page_box
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

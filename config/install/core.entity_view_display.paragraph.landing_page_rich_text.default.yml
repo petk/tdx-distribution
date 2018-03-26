@@ -1,0 +1,26 @@
+uuid: 18161041-83ba-4497-bf2c-c54473218227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_rich_text.field_paragraph_column
+    - field.field.paragraph.landing_page_rich_text.field_style
+    - field.field.paragraph.landing_page_rich_text.field_text
+    - paragraphs.paragraphs_type.landing_page_rich_text
+  module:
+    - text
+id: paragraph.landing_page_rich_text.default
+targetEntityType: paragraph
+bundle: landing_page_rich_text
+mode: default
+content:
+  field_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_paragraph_column: true
+  field_style: true

@@ -1,0 +1,65 @@
+uuid: 5b1afdb5-f723-4702-99eb-ffae71aff16b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view
+    - paragraphs.paragraphs_type.landing_page_list
+    - views.view.paragraph_blogs
+  module:
+    - viewsreference
+id: paragraph.landing_page_list.field_view
+field_name: field_view
+entity_type: paragraph
+bundle: landing_page_list
+label: List
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    options:
+      pager: some
+      argument: ''
+      limit: ''
+      offset: ''
+      title: 0
+    display_id: default
+    data: 'a:5:{s:5:"pager";s:4:"some";s:8:"argument";s:0:"";s:5:"limit";s:0:"";s:6:"offset";s:0:"";s:5:"title";i:0;}'
+    target_uuid: 26099e35-c605-4130-83ec-8539ead4464e
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    default: default
+    block: block
+    page: 0
+    entity_browser: 0
+    feed: 0
+  preselect_views:
+    paragraph_blogs: paragraph_blogs
+    block_content: 0
+    blog: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    file_entity_browser: 0
+    frontpage: 0
+    media: 0
+    simplenews_newsletters: 0
+    simplenews_subscribers: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+  enabled_settings:
+    argument: argument
+    limit: limit
+    title: title
+    pager: 0
+    offset: 0
+field_type: viewsreference

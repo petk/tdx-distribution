@@ -1,0 +1,22 @@
+// ========================================
+//
+// @file application.scss
+// Main output file combining all the Sass imports
+//
+// ========================================
+
+// - - - - - - - - - - - - - - - - - - - -
+// Import files
+// - - - - - - - - - - - - - - - - - - - -
+@import "agiledrop/normalize";
+@import "agiledrop/functions";
+@import "agiledrop/mixins";
+@import "agiledrop/settings";
+@import "agiledrop/base";
+@import "agiledrop/typography";
+@import "agiledrop/layout";
+@import "agiledrop/navigation";
+@import "agiledrop/modules";
+@import "agiledrop/admin";
+@import "agiledrop/forms";
+

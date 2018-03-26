@@ -1,0 +1,85 @@
+name: tdx
+type: profile
+description: ''
+core: 8.x
+distribution:
+  name: TailorDX
+config_install: true
+
+
+# Required modules
+dependencies:
+  # core
+  - block
+  - breakpoint
+  - block_content
+  - ckeditor
+  - contextual
+  - content_moderation
+  - menu_link_content
+  - datetime
+  - editor
+  - entity_reference
+  - image
+  - inline_form_errors
+  - menu_ui
+  - media
+  - language
+  - node
+  - options
+  - path
+  - page_cache
+  - taxonomy
+  - dblog
+  - dynamic_page_cache
+  - toolbar
+  - field_ui
+  - file
+  - responsive_image
+  - views
+  - views_ui
+  - workflows
+# contrib
+  - addtoany
+  - admin_toolbar
+  - adminimal_admin_toolbar
+  - blazy
+  - blazy_ui
+  - classy_paragraphs
+  - ctools
+  - devel
+  - dropzonejs
+  - dropzonejs_eb_widget
+  - embed
+  - entity_browser
+  - entity_embed
+  - entity_reference_revisions
+  - entity_browser_entity_form
+  - field_group
+  - file_browser
+  - google_analytics
+  - inline_entity_form
+  - install_profile_generator
+  - mailsystem
+  - menu_link_attributes
+  - metatag
+  - metatag_open_graph
+  - paragraphs
+  - paragraphs_edit
+  - pathauto
+  - simplenews
+  - slick
+  - slick_paragraphs
+  - swiftmailer
+  - tab_toolbar
+  - token
+  - viewsreference
+  - webform
+
+themes:
+  - bartik
+  - stark
+  - adminimal_theme
+  - cotailored_wireframe
+  - cotailored_base
+  - cotailored_adminal

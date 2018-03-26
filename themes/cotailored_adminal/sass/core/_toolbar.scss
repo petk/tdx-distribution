@@ -1,0 +1,198 @@
+// ========================================
+//
+// @file _toolbar.scss
+// Toolbar styles
+//
+// ========================================
+/**
+ * @file toolbar.theme.css
+ */
+
+ $toolbar-white:         white;
+ $toolbar-link:          #e5d6f6;
+ $toolbar-bar:           #200044 !default;
+ $toolbar-over:          #7e7cce !default;
+ $toolbar-tray:          #150725 !default;
+
+ .adminimal-admin-toolbar {
+   font-family: $font-text;
+   // Toolbar bar
+   .toolbar .toolbar-bar {
+     background-color: $toolbar-tray;
+     color: $toolbar-white;
+   }
+
+   .toolbar .toolbar-bar {
+     .toolbar-item {
+       color: $toolbar-white;
+     }
+
+     .toolbar-tab {
+       & > .toolbar-item {
+         font-weight: 600;
+       }
+
+       & > .toolbar-item:hover,
+       & > .toolbar-item:focus {
+         background-color: $toolbar-bar;
+       }
+
+       & > .toolbar-item.is-active {
+         background-color: $toolbar-bar;
+       }
+     }
+   }
+
+   .toolbar .toolbar-item {
+     cursor: pointer;
+     padding: 1em 1.3333em;
+     line-height: 1em;
+     text-decoration: none;
+   }
+   .toolbar .toolbar-item:hover,
+   .toolbar .toolbar-item:focus {
+     text-decoration: none;
+   }
+
+   // Toolbar tray
+   .toolbar .toolbar-tray {
+     background-color: $toolbar-bar;
+
+     .toolbar-menu a {
+       background-color: $toolbar-bar;
+       color: $toolbar-link;
+     }
+
+     .menu-item--expanded:hover > a,
+     .menu-item--expanded:hover > .toolbar-box {
+       background-color: $toolbar-tray;
+     }
+
+     &.toolbar-tray-horizontal ul ul li.menu-item:first-child {
+       border-top-color: $toolbar-over;
+     }
+
+     &.toolbar-tray-vertical {
+       .toolbar-menu a {
+         &:hover,
+         &:focus {
+           background-color: $toolbar-tray;
+         }
+       }
+
+       .menu-item--active-trail {
+         .toolbar-box a {
+           background-color: $toolbar-tray;
+         }
+       }
+     }
+   }
+
+   .toolbar-toggle-orientation button {
+     background-color: $toolbar-tray;
+   }
+
+   .toolbar-icon-admin-toolbar-tools-help:before,
+   .toolbar-icon-admin-toolbar-tools-help:active:before,
+   .toolbar-icon-admin-toolbar-tools-help:hover:before {
+     @include image('cotailored-icon.svg');
+   }
+
+   .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded {
+     &:after {
+       content: '';
+       @include image('chevron-white.svg');
+       top: 50%;
+       transform: translateY(-50%);
+       right: 10px;
+       width: 8px;
+       height: 12px;
+     }
+
+     &:hover:after {
+       content: '';
+       top: 50%;
+       transform: translateY(-50%);
+       right: 5px;
+     }
+   }
+ }
+
+ .adminimal-admin-toolbar .level-1 .toolbar-handle.open,
+ .adminimal-admin-toolbar .toolbar-tray-vertical .level-2 {
+   background-color: $toolbar-tray !important;
+   border-radius: 0;
+ }
+
+ // Admin bar icons
+ .adminimal-admin-toolbar {
+  .toolbar-icon-system-admin-content {
+    &:before { @include image('file.svg'); }
+    &:hover:before, &.is-active:before { @include image('file-white.svg'); }
+  }
+
+  .toolbar-icon-system-admin-structure {
+    &:before { @include image('orgchart.svg'); }
+    &:hover:before, &.is-active:before { @include image('orgchart-white.svg'); }
+  }
+
+  .toolbar-icon-system-themes-page {
+    &:before { @include image('paintbrush.svg'); }
+    &:hover:before, &.is-active:before { @include image('paintbrush-white.svg'); }
+  }
+
+  .toolbar-icon-system-modules-list {
+    &:before { @include image('puzzlepiece.svg'); }
+    &:hover:before, &.is-active:before { @include image('puzzlepiece-white.svg'); }
+  }
+
+  .toolbar-icon-system-admin-config {
+    &:before { @include image('wrench.svg'); }
+    &:hover:before, &.is-active:before { @include image('wrench-white.svg'); }
+  }
+
+  .toolbar-icon-entity-user-collection {
+    &:before { @include image('people.svg'); }
+    &:hover:before, &.is-active:before { @include image('people-white.svg'); }
+  }
+
+  .toolbar-icon-system-admin-reports {
+    &:before { @include image('barchart.svg'); }
+    &:hover:before, &.is-active:before { @include image('barchart-white.svg'); }
+  }
+
+  .toolbar-bar .toolbar-icon-user:before {
+    @include image('person.svg');
+  }
+
+  .toolbar {
+    .toolbar-toggle-orientation [value="vertical"]:before {
+      @include image('push-left.svg');
+    }
+
+    .toolbar-toggle-orientation [value="horizontal"]:before {
+      @include image('push-up.svg');
+    }
+
+    .toolbar-toggle-orientation {
+      background-color: $brand-secondary;
+    }
+
+    .toolbar-icon.toolbar-handle.open:before {
+      background-image: url(../images/chevron-disc-up.svg) !important;
+    }
+  }
+
+  .toolbar-menu-administration {
+    ul {
+      margin: 0;
+      li a {
+        background-color: $toolbar-bar;
+        color: $toolbar-link;
+        &:hover {
+         background-color: $toolbar-tray;
+        }
+      }
+    }
+  }
+}

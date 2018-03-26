@@ -1,0 +1,11 @@
+uuid: b43c11e5-2aef-4bb8-bbc0-8c8224c8aa3b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:e54e1d6e-2be2-431e-a43b-9f09cd495548'
+id: landing_page_slider
+label: Slider
+icon_uuid: e54e1d6e-2be2-431e-a43b-9f09cd495548
+description: ''
+behavior_plugins: {  }

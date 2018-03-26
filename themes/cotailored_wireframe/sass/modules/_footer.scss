@@ -1,0 +1,38 @@
+// ========================================
+//
+// @file _footer.scss
+// Footer element on the page
+//
+// ========================================
+
+
+footer[role="footer"] {
+  margin-top: 40px;
+  padding: 20px 0;
+  color: $brand-primary;
+  background-color: $color-white;
+  border-top: 1px solid $brand-primary;
+  @media (min-width: $screen-sm-min) {
+    margin-top: 60px;
+  }
+
+  a {
+    color: $link-color;
+  }
+}
+
+.copyright {
+  padding: 20px 0;
+  color: $brand-primary;
+  background-color: $color-white;
+  border-top: 1px dashed $brand-primary;
+}
+
+.region-footer {
+  .block {
+    @extend %col;
+    .field--name-body {
+      @extend %box;
+    }
+  }
+}

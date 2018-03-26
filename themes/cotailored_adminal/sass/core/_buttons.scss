@@ -1,0 +1,127 @@
+// ========================================
+//
+// @file _buttons.scss
+// Button styles
+//
+// ========================================
+
+.adminimal {
+
+  .button {
+    border-radius: 5px;
+    border: 1px solid $brand-primary-alt;
+    &:hover {
+      border-color: $brand-primary-alt;
+    }
+
+    &.paragraph-type-add-modal-button {
+      border-width: 2px;
+    }
+  }
+
+  .form-actions {
+    .button {
+      border-width: 2px;
+      padding: 7px 20px;
+      &#edit-delete {
+        border: 2px solid $brand-danger;
+      }
+    }
+  }
+
+  .button--primary {
+    background-color: $brand-primary;
+    border: 1px solid transparent;
+    &:hover,
+    &:focus {
+      background-color: $brand-secondary;
+    }
+  }
+
+  .action-links .button--primary {
+    padding: 10px 20px;
+    border-color: $brand-primary;
+    background-color: $brand-primary;
+    color: $color-white;
+    &:hover,
+    &:focus {
+      background-color: $brand-secondary;
+    }
+  }
+}
+
+
+.paragraphs-actions {
+
+  .paragraphs-dropdown-actions {
+    border-color: $brand-primary-alt;
+  }
+
+  .paragraphs-dropdown {
+    button {
+      &:hover {
+        border-color: $brand-primary-alt;
+      }
+    }
+    input {
+      border: none;
+    }
+
+    &.open {
+      button {
+        border-color: $brand-primary-alt;
+      }
+    }
+  }
+}
+
+// Dropdown widget
+.js {
+  .adminimal .dropbutton-wrapper .dropbutton-widget .dropbutton-toggle button,
+  .adminimal .dropbutton-wrapper .dropbutton-widget .dropbutton-toggle button  {
+    border-left: 1px solid $brand-primary-alt;
+    &:hover,
+    &:focus {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+
+  .adminimal .dropbutton-wrapper .dropbutton-widget .dropbutton-action a {
+    font-weight: 600;
+  }
+
+  .dropbutton-wrapper .dropbutton-widget .dropbutton-toggle button {
+    border-color: $brand-primary-alt;
+  }
+
+  .adminimal .dropbutton-widget .dropbutton-action {
+    input {
+      font-weight: 600;
+      border-radius: 5px;
+    }
+  }
+
+  .dropbutton-multiple .dropbutton-widget {
+    border: 1px solid $brand-primary-alt !important;
+    border-radius: 5px !important;
+
+    .dropbutton-action {
+      a {
+        border-radius: 5px !important;
+      }
+    }
+
+    button:hover,
+    button:focus {
+      border-color: $brand-primary-alt;
+      border-radius: 0 5px 5px 0;
+    }
+  }
+
+  .paragraphs-subform {
+    button:hover {
+      border: 1px solid $brand-primary-alt !important;
+    }
+  }
+}
+

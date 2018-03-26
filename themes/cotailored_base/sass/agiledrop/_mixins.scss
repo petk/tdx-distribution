@@ -1,0 +1,106 @@
+// ========================================
+//
+// @file _mixins.scss
+// File containing all Sass mixins
+//
+// ========================================
+
+// - - Clearfix
+@mixin clearfix {
+	zoom: 1;
+
+	&:before,
+	&:after {
+		content: "\0020";
+		display: block;
+		height: 0;
+		overflow: hidden;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+// - - Image for retina
+@mixin image-2x ($image, $width, $height) {
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+		background-image: url($image);
+		background-size: $width $height;
+	}
+}
+
+// - - CSS calc function
+@mixin calc ($property, $expression) {
+	#{$property}: calc(#{$expression});
+}
+
+// - - Placeholder color
+@mixin placeholder ($color, $opacity: 1) {
+	&::-webkit-input-placeholder {
+		color: $color;
+		opacity: $opacity;
+	}
+	&:-moz-placeholder {
+		color: $color;
+		opacity: $opacity;
+	}
+	&::-moz-placeholder {
+		color: $color;
+		opacity: $opacity;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+		opacity: $opacity;
+	}
+}
+
+@mixin cta($bg: 'light') {
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  transition: .2s all;
+  font-family: $font-heading;
+  font-weight: 700;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: none;
+    transition: .2s all;
+  }
+
+  @if $bg == 'light' {
+    color: $brand-primary;
+    border: 1px solid $brand-primary;
+    background: $color-white;
+
+    &:hover {
+      border: 1px solid $brand-secondary;
+      color: $brand-secondary;
+    }
+  }
+
+  @if $bg == 'dark' {
+    color: $color-white;
+    background: $green;
+
+    &:hover {
+      background: $brand-secondary;
+    }
+  }
+}
+
+//helper for backgorund image
+@mixin image($image_name){
+  // Set properties individually to allow for other background property additions.
+  background-image: url($image-root + $image_name);
+  background-repeat: no-repeat;
+}

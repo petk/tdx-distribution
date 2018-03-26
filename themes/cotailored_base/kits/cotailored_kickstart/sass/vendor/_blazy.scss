@@ -1,0 +1,10 @@
+// ========================================
+//
+// @file _blazy.scss
+// Blazy styles
+//
+// ========================================
+
+.media--loading::before {
+  background-color: $brand-primary;
+}

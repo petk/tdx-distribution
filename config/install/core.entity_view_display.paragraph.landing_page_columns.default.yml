@@ -1,0 +1,28 @@
+uuid: 2e276517-6e2f-464c-a36e-4f991b9c9add
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_page_columns.field_landing_page_elements
+    - field.field.paragraph.landing_page_columns.field_paragraph_container
+    - field.field.paragraph.landing_page_columns.field_style
+    - paragraphs.paragraphs_type.landing_page_columns
+  module:
+    - entity_reference_revisions
+id: paragraph.landing_page_columns.default
+targetEntityType: paragraph
+bundle: landing_page_columns
+mode: default
+content:
+  field_landing_page_elements:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paragraph_container: true
+  field_style: true

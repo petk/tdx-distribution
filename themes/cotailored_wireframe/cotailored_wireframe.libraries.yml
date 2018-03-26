@@ -1,0 +1,20 @@
+# Global CSS files
+global-css:
+  version: 1.x
+  css:
+    theme:
+      assets/stylesheets/application.css:
+        minified: false
+
+# Global JS files
+global-js:
+  version: 1.x
+  js:
+    assets/scripts/application.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

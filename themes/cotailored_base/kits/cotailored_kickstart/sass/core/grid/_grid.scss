@@ -1,0 +1,13 @@
+// ========================================
+//
+// @file _grid.scss
+// Main grid classes
+//
+// ========================================
+
+// Import necessary mixins
+@import 'framework';
+@import 'system';
+@include make-grid-columns;
+
+@include make-grid(col);
