@@ -8,7 +8,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: ur5IEgEgeoNAE7ppqt6usimLP8WHe6WPKuZul582QUM
+  default_config_hash: G2iarPPPQG_W4kCLh80wp0C3mXwpq0S4NTojzz7kmF8
 id: media.file.default
 targetEntityType: media
 bundle: file
@@ -30,6 +30,8 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  addtoany: true
   created: true
+  langcode: true
   thumbnail: true
   uid: true

@@ -1,0 +1,14 @@
+uuid: fd3ccda3-3feb-4219-838d-dcc692e51ed7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: afgVif6XH7YNJim5BRkS2FBGjVFCnnQobwwh7_OB6DA
+id: gender
+label: Gender
+category: Demographic
+likert: false
+options: "Male: Male\nFemale: Female\nTransgender: Transgender\n"

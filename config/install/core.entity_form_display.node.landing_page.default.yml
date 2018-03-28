@@ -11,6 +11,8 @@ dependencies:
     - paragraphs
     - path
     - text
+_core:
+  default_config_hash: B_vIzt50gN5k9tOP3q7QT8uJ_Cz4mk4ZFjHC5rYHNuo
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
@@ -44,6 +46,13 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
     weight: 8

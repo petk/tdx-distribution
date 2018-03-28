@@ -7,7 +7,7 @@ dependencies:
     - file
     - image
 _core:
-  default_config_hash: D5QbkhbHfWlohKBxTofPCBUqp9vCE2dFnJii5JdWEk4
+  default_config_hash: fDlXEgQpJ68damKcnXdojOZtq8cjH8DghFzayxYTv0U
 label: 'File Browser'
 id: file_browser
 type_id: entity

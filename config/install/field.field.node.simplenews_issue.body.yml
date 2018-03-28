@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: WmXguLYedqjDlEM-2yau5wACNAMvrbCVHXQUn4GQEDA
+  default_config_hash: SSwro_tw420qGEbFtUQ-Ep_XORv4yNDt2H720H4M4bU
 id: node.simplenews_issue.body
 field_name: body
 entity_type: node

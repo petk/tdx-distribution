@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: ESUHC-RkQKG4-DphO1te-lmwsmb8b2s866Ewpg-lL7c
 name: 'Basic page'
 type: basic_page
 description: ''

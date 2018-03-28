@@ -11,7 +11,7 @@ dependencies:
     - dropzonejs_eb_widget
     - views
 _core:
-  default_config_hash: 3nSl8VhOgIqEZaatR63quCeMwEZ6h35dUddtIVLCNPk
+  default_config_hash: '-mUN6hl49Ad2-U0aibHc4jTFPl3Cz8TIcNkcwXwnxn8'
 name: browse_files_modal
 label: 'Browser for files (modal)'
 display: modal

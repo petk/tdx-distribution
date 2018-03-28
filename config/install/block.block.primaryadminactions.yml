@@ -4,6 +4,8 @@ status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: dQLXknZS8lCio0Q5Iiooi-yD5sYJULczVFYVrrnDCAc
 id: primaryadminactions
 theme: seven
 region: content

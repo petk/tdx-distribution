@@ -10,7 +10,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: 2uFXyR4335F9Qrls0Lx2QTobeBiF6FN1PeDjJEv47Yw
+  default_config_hash: HSh7IqKoV7TGQtZiQNFCFlIzwxkuWgVY-kbIvvp3BG0
 id: node.simplenews_issue.default
 targetEntityType: node
 bundle: simplenews_issue
@@ -30,4 +30,5 @@ content:
     region: content
 hidden:
   addtoany: true
+  langcode: true
   simplenews_issue: true

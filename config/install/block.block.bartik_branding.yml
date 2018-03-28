@@ -1,4 +1,4 @@
-uuid: b3f49c52-2831-4a8a-b417-04302bf486e4
+uuid: 5fa9b312-f1ae-4a25-b660-6e490be39f2c
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+  default_config_hash: WbMa1SorujIXVJyVLcTeIm12PwJJoKwHT72qdfB4IPo
 id: bartik_branding
 theme: bartik
 region: header
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: true
+  use_site_name: false
+  use_site_slogan: false
 visibility: {  }

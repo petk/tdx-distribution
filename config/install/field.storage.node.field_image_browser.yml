@@ -7,7 +7,7 @@ dependencies:
     - image
     - node
 _core:
-  default_config_hash: YtTY_0RRrqa4tG8YA_WNMBauWNuKFPaFrrn4zgGzMiQ
+  default_config_hash: xl6Fm6Lf8hv2i7nTKiZMVNoo4VETbpZxUgMYAg_l1qw
 id: node.field_image_browser
 field_name: field_image_browser
 entity_type: node

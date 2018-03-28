@@ -8,7 +8,7 @@ dependencies:
     - simplenews
     - user
 _core:
-  default_config_hash: WyIS3mrmy1vkSOWTl1IGi_Zi0UmkVqmtW06au3N9rXU
+  default_config_hash: Ru1mtEUZbBWircxIqhqh2ootLh1Zugo_8AyVbZgoLPQ
 id: simplenews_subscribers
 label: Subscribers
 module: views

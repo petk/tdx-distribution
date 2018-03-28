@@ -1,15 +1,17 @@
-uuid: beda44c4-9215-4689-9d8e-14479264a3e5
+uuid: 6f2ef7dd-21ba-4535-b6b2-5c83b60fb695
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools
   theme:
     - stark
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+  default_config_hash: 8L47D774uekvZrup3n2XiPN-Ygw30ppojYVA98Aw8D4
 id: stark_page_title
 theme: stark
 region: content
-weight: -30
+weight: 0
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,13 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

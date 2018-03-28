@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_columns
   module:
     - options
+_core:
+  default_config_hash: aA7Sqpjt5GcN5TpYSKaj5va9aX3rLtpfwHa0q1Aj06w
 id: paragraph.landing_page_columns.field_paragraph_container
 field_name: field_paragraph_container
 entity_type: paragraph

@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_form
   module:
     - webform
+_core:
+  default_config_hash: 4ixu2c4Zz8hgR8dUOdXZAQwjvNiaSM-9KrBnjVyx6Ps
 id: paragraph.landing_page_form.default
 targetEntityType: paragraph
 bundle: landing_page_form

@@ -6,6 +6,8 @@ dependencies:
     - filter.format.rich_editor
   module:
     - ckeditor
+_core:
+  default_config_hash: psnPCIRwTSne6R6LnIftdS_wyqI_jVT2Shq0iQiN5hQ
 format: rich_editor
 editor: ckeditor
 settings:

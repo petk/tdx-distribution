@@ -6,7 +6,7 @@ dependencies:
     - file
     - node
 _core:
-  default_config_hash: KX3HGuY3d7qBx4-hRdFprVVjahr_TpxwXBuQTbGBV4o
+  default_config_hash: Qxmz7YfDFtGEuUaRQs0PRt3td9oJFtRRrG_OVd0wUng
 id: node.field_files_over_ajax
 field_name: field_files_over_ajax
 entity_type: node

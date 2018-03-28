@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
+  default_config_hash: dplaELAqnty1o1Qzyje3TEpiCtO7a4fkCNj2p51_DAE
 id: html_yearless_date
 label: 'HTML Yearless date'
 locked: true

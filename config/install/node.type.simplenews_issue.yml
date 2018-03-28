@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 3BiX0lHzQ8EyHRnO56OziilMZPNxJImXpSAQUTuALLU
+  default_config_hash: JUC2Myx4Vsp_Phd_mIpZkkE7gj5vXxc3RQmPaoMA2AM
 name: 'Newsletter Issue'
 type: simplenews_issue
 description: 'Use <em>Newsletter Issue</em> for newsletters.'

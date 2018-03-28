@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_style
     - paragraphs.paragraphs_type.landing_page_rich_text
+_core:
+  default_config_hash: OKCyb-Q201XyN1wfM-tl4r03V_E8mFM6TqIZsmPASuU
 id: paragraph.landing_page_rich_text.field_style
 field_name: field_style
 entity_type: paragraph

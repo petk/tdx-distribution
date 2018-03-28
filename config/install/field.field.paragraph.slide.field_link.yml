@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.slide
   module:
     - link
+_core:
+  default_config_hash: oEEFUGMgSiVTg_wxncrFEC5Sx9L_GRn5OJW0RUHsQwo
 id: paragraph.slide.field_link
 field_name: field_link
 entity_type: paragraph

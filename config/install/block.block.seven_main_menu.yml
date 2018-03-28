@@ -1,0 +1,26 @@
+uuid: 1c373746-0f99-4669-bc05-5f936bd190a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: _VSQlCYS2BLi38_IfB0y--AQ2EpsFCnpUjGn7DZwl5M
+id: seven_main_menu
+theme: seven
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

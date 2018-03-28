@@ -4,6 +4,8 @@ status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: PSzGWzTz7uxzGg1D_vumU9hWdu_uF3NAAjwG18xf5iE
 id: tabs
 theme: seven
 region: header

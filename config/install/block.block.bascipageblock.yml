@@ -2,13 +2,12 @@ uuid: 9f0c3229-1082-4bbd-ab73-88446ac79d01
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic_block:dd87d3c8-69dc-4f60-a0fc-85dbaa5e899d'
   module:
-    - block_content
     - ctools
   theme:
     - cotailored_wireframe
+_core:
+  default_config_hash: kAIaRFqZw5jZN3alkDWPAsBfhJGCMwhLYBCXzgivsXM
 id: bascipageblock
 theme: cotailored_wireframe
 region: sidebar

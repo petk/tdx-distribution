@@ -2,6 +2,8 @@ uuid: a4446596-3fc5-4c59-847e-6a4971fdd4f2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Nhmq4zI-8wpJIMq4G6KT9wD3aiTN4Eh26bweB0r8hZk
 id: landing_page_box
 label: Box
 icon_uuid: null

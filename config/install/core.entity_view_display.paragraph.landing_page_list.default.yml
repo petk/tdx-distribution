@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_list
   module:
     - viewsreference
+_core:
+  default_config_hash: 0johrTvUK3cQ3t34ES-q4NXQWFPRc6pwk18jOqcV6k0
 id: paragraph.landing_page_list.default
 targetEntityType: paragraph
 bundle: landing_page_list

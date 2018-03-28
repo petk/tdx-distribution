@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: s6qJnINiq7zI-ZoQOXM_gtiDpIsHT3fm7RySP1F_BE0
+  default_config_hash: xdxCWzSUNVPJwFT9VhLNErPKnlNLwUR3yV1znWUvkAc
 id: file
 label: File
 description: 'Use local files for reusable media.'

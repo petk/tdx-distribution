@@ -5,7 +5,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
+  default_config_hash: JASepq0-mb9Gd0ysW8jQ7QUiUQq7Pm-jiICuiS7gnf8
 id: taxonomy_term.full
 label: 'Taxonomy term page'
 targetEntityType: taxonomy_term

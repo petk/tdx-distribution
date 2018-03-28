@@ -7,7 +7,7 @@
 
 .node--view-mode-full {
   &.node--type-blog-post {
-    .field--name-field-cover-image {
+    .field--name-field-media-cover {
       img {
         object-fit: cover;
         width: 100%;
@@ -55,7 +55,7 @@
   &.node--type-blog-post {
     @extend %box;
 
-    .field--name-field-cover-image {
+    .field--name-field-media-cover {
       margin-bottom: 10px;
     }
 
@@ -103,7 +103,7 @@
         @include font-size(1.2);
       }
 
-      .field--name-field-cover-image {
+      .field--name-field-media-cover {
         flex: 0 0 25%;
         margin-right: 15px;
       }

@@ -1,6 +1,6 @@
-uuid: b6ff5813-5b9f-4810-b660-0a40ab48a675
-name: CoTailored
-mail: iztok@cotailored.com
+uuid: 14d3bb44-8641-4f0b-97ac-16859f9773dc
+name: TDX
+mail: mitja@mitjakrope.com
 slogan: 'Design ambitious websites'
 page:
   403: ''
@@ -11,4 +11,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: p_3vycwf4BVZGHD4iTta5STspxzpXqfQWSsVo4zqdsw

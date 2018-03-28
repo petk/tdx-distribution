@@ -1,0 +1,22 @@
+uuid: cd8c64a3-8dbe-4447-aeac-8809200e7de2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cotailored_adminal
+_core:
+  default_config_hash: IaqUSD_nSaOCnChDUz09Vwwkl4WckDvChWeZLI5rnR4
+id: cotailored_adminal_breadcrumbs
+theme: cotailored_adminal
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -3,16 +3,16 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+  default_config_hash: EkmgGxSgcgkJPNisIg95JygXGCwbGM9xeoJRb2Br1Jw
 name: 'Default newsletter'
 id: default
 description: 'This is an example newsletter. Change it.'
 format: html
 priority: 3
 receipt: true
-from_name: CoTailored
+from_name: TailorDX
 subject: '[[simplenews-newsletter:name]] [node:title]'
-from_address: iztok@cotailored.com
+from_address: mitja@mitjakrope.com
 hyperlinks: false
 new_account: none
 opt_inout: single

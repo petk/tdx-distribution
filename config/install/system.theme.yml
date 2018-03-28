@@ -1,2 +1,4 @@
 admin: cotailored_adminal
 default: cotailored_wireframe
+_core:
+  default_config_hash: Hq1tenb9BScB4qYFGHoSAviBR1r-QrMdX5iS6pcI5-g

@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+  default_config_hash: 8AxfLXas6VmFaQjQLjlWQoboZ2uKA6ET3XYQVdez0ug
 id: node.search_index
 label: 'Search index'
 targetEntityType: node

@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.landing_page_highlight
+_core:
+  default_config_hash: 06MzcaIUycEtA0TWpcAB9PcVKxixxkqxpT_VEwTNd1Q
 id: paragraph.landing_page_highlight.field_title
 field_name: field_title
 entity_type: paragraph

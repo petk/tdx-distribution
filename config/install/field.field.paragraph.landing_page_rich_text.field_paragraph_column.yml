@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_rich_text
   module:
     - options
+_core:
+  default_config_hash: Ilkjh-lxZkSyeCWui01WRNgJaG0wTD-qaZ7zSDf2oOA
 id: paragraph.landing_page_rich_text.field_paragraph_column
 field_name: field_paragraph_column
 entity_type: paragraph

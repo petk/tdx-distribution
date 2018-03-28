@@ -6,7 +6,7 @@ dependencies:
     - entity_embed
     - node
 _core:
-  default_config_hash: xgvZUh-eaMilacE1XYCQ9nLH-2-meOjCyofXSO82gqg
+  default_config_hash: nFDnb8ocwewXfxfYQdXUa4WI_9sSLbXvTUr0AFqD1BU
 label: Node
 id: node
 type_id: entity

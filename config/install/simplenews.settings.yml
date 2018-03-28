@@ -3,8 +3,8 @@ newsletter:
   format: plain
   priority: 0
   receipt: true
-  from_address: iztok@cotailored.com
-  from_name: CoTailored
+  from_address: mitja@mitjakrope.com
+  from_name: TailorDX
 subscriber:
   sync_fields: true
 subscription:
@@ -30,4 +30,4 @@ mail:
   spool_expire: 0
   debug: false
 _core:
-  default_config_hash: cy-hJPYCnfCsuUZA7VDoAwssKhRJCa8N88iJTaWiims
+  default_config_hash: f6MXI7I8_10oCzeP-dwDlX18z23e91x886T2YAZ3cSA

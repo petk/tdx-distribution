@@ -5,6 +5,8 @@ dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: bStVMcYI6v6MWOzJ5ducnqDHm6zjgXLZ1Kjj09LEBRI
 id: paragraph.field_type
 field_name: field_type
 entity_type: paragraph

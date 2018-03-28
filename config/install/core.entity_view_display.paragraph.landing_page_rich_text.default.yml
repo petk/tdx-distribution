@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_rich_text
   module:
     - text
+_core:
+  default_config_hash: 75kYUW8QtfAGZ7kQEaCU6U9c8BPUEA4Oej70ZZxunv8
 id: paragraph.landing_page_rich_text.default
 targetEntityType: paragraph
 bundle: landing_page_rich_text

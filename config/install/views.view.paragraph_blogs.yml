@@ -8,6 +8,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: 4jygjpXWj38K7mzN2cRgCnB17omo28dOigQ3z7Ef7kI
 id: paragraph_blogs
 label: 'Paragraph Blogs'
 module: views

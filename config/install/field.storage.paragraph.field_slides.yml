@@ -5,6 +5,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: yS6MUqS7Me0OEstzxgNaNcPc1HoYGHksaWZnKf_tqHc
 id: paragraph.field_slides
 field_name: field_slides
 entity_type: paragraph

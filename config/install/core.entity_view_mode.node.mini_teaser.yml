@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: Qx-DyM5mLURivmc3lZ3LQymDJ43m64XhO0V_NcniiP0
 id: node.mini_teaser
 label: 'Mini teaser'
 targetEntityType: node

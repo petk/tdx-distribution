@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+  default_config_hash: k2uHvvZCibiTqB2FbCdTcSIY5UJLx9ymcbQscKX-j8Y
 id: authenticated
 label: 'Authenticated user'
 weight: 1

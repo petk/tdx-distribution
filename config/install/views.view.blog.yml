@@ -8,6 +8,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: x6rJoP9rpLdwzf4vv8zgz4eJHVmNcY0WB1nYbJp3fPU
 id: blog
 label: Blog
 module: views

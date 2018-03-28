@@ -2,6 +2,8 @@ uuid: 1c0ab772-3739-44e1-aabe-2dfe51f3fb57
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: IR1qQ4m15bwpEnt7flQpoAhQYX05mfdspP_zxbiZ1Go
 id: node__blog_post
 label: 'Content: Blog post'
 tags:

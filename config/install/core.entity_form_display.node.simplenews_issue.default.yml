@@ -11,7 +11,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: WqeUSrMFjkfE6sD1OFP-91spC9kIXK8gtJ_qXf4bKDg
+  default_config_hash: oe7u3C40w-myuB4Ae-aLPXiDQbs9fkCt1GugZsV5Mu8
 id: node.simplenews_issue.default
 targetEntityType: node
 bundle: simplenews_issue
@@ -32,6 +32,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
     weight: 100

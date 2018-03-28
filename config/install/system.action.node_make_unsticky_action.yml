@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+  default_config_hash: 3srYEq29l6V6wL95Q6ipg_vK_FDDeKQLsbSk3HEQ3l0
 id: node_make_unsticky_action
 label: 'Make content unsticky'
 type: node

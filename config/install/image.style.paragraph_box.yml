@@ -2,6 +2,8 @@ uuid: 796e6ace-53a6-4eb9-a84a-2f36b34101c3
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: BIdB7gsu_BjfrUWa4pkzcPIt7RZmwM0c539-rEDyK0Y
 name: paragraph_box
 label: 'Paragraph Box'
 effects:

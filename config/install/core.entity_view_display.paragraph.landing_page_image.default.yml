@@ -3,71 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.landing_page_image.field_image
+    - field.field.paragraph.landing_page_image.field_media
     - field.field.paragraph.landing_page_image.field_paragraph_column
     - field.field.paragraph.landing_page_image.field_style
     - paragraphs.paragraphs_type.landing_page_image
-  module:
-    - blazy
+_core:
+  default_config_hash: y43gObHOqf2z6HoECYuvtZEbNeoQUxIlu1olgBYYHI4
 id: paragraph.landing_page_image.default
 targetEntityType: paragraph
 bundle: landing_page_image
 mode: default
 content:
-  field_image:
-    weight: 0
+  field_media:
+    type: entity_reference_entity_view
+    weight: 1
     label: hidden
     settings:
-      style: ''
-      image_style: large
-      thumbnail_style: ''
-      responsive_image_style: ''
-      media_switch: ''
-      ratio: ''
-      grid: null
-      grid_medium: null
-      grid_small: null
-      sizes: ''
-      breakpoints:
-        xs:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        sm:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        md:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        lg:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        xl:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-      current_view_mode: default
-      background: false
-      caption:
-        title: '0'
-        alt: '0'
-      grid_header: ''
-      iframe_lazy: true
-      icon: ''
-      layout: ''
-      view_mode: ''
-      cache: 0
-      optionset: default
-      skin: ''
-      box_caption: ''
-      box_caption_custom: ''
-      box_style: ''
-      box_media_style: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: blazy
     region: content
 hidden:
   field_paragraph_column: true

@@ -1,0 +1,22 @@
+uuid: 535e4a24-6720-4511-95c7-ea4b5b55a379
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cotailored_base
+_core:
+  default_config_hash: nbJOyRNT8wa92-okZcpjGXTDoVlTzJrglwZa7ihvgkA
+id: cotailored_base_messages
+theme: cotailored_base
+region: status
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

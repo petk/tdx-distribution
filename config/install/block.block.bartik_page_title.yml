@@ -1,15 +1,17 @@
-uuid: 7f5c25a7-e92a-4883-940b-42d60389c0ca
+uuid: e8bed495-d1e3-4667-a0c1-9cf6516fc09a
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools
   theme:
     - bartik
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+  default_config_hash: 8L47D774uekvZrup3n2XiPN-Ygw30ppojYVA98Aw8D4
 id: bartik_page_title
 theme: bartik
 region: content
-weight: -3
+weight: 0
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,13 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

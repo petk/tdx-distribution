@@ -7,6 +7,8 @@ dependencies:
     - simplenews
   theme:
     - cotailored_wireframe
+_core:
+  default_config_hash: cYIZ9O_KpvL4Yfpz8lM1_RBIJWAj_qQW4yW1bHiP9bM
 id: simplenewssubscription
 theme: cotailored_wireframe
 region: sidebar

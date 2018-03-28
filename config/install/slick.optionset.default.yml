@@ -6,7 +6,7 @@ dependencies:
     module:
       - slick
 _core:
-  default_config_hash: k7CsIh1fcue1aRGoNiJjnlNH9KHBttIn-kH6Di03wL0
+  default_config_hash: cj87EthnsHZQqrA052EOTdae9amyjAsNnvzA4jtlbyo
 id: default
 name: default
 label: Default

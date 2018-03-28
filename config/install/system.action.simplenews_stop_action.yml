@@ -5,7 +5,7 @@ dependencies:
   module:
     - simplenews
 _core:
-  default_config_hash: 03Ao5qcJ1Dn0biP58cSBcKu_JNkpvt9n8tHLi5SToJ4
+  default_config_hash: QtLPisuj6Dr9sTMUlz_QoBl23Kv460HdvXZYsMC3k6A
 id: simplenews_stop_action
 label: 'Stop sending'
 type: node

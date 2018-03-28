@@ -10,7 +10,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: hXrcSi0w6aTt3jtOSoec3ah6KyHcQM__VFL8eWmmkfw
+  default_config_hash: _PBlgoLtryVKBFqdQ1pr4sWXNpM2iZLW2yuxkac5Upg
 id: media.file.default
 targetEntityType: media
 bundle: file
@@ -29,6 +29,13 @@ content:
     type: file_generic
     weight: 26
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
     weight: 100

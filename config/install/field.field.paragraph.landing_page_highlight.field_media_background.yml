@@ -1,0 +1,28 @@
+uuid: 1ed00958-989d-4d59-8a5b-83ce1930652f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_background
+    - media.type.image
+    - paragraphs.paragraphs_type.landing_page_highlight
+id: paragraph.landing_page_highlight.field_media_background
+field_name: field_media_background
+entity_type: paragraph
+bundle: landing_page_highlight
+label: 'Media Background'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

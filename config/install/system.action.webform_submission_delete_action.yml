@@ -5,7 +5,7 @@ dependencies:
   module:
     - webform
 _core:
-  default_config_hash: TBnl4vapW7sy5bRi7TcF-ueJnvz7aZNLif95ifvhfTQ
+  default_config_hash: Q846K1dy0YJT25mbbgCsDWdz9SD-q2BFllUfZhP7RX4
 id: webform_submission_delete_action
 label: 'Delete submission'
 type: webform_submission

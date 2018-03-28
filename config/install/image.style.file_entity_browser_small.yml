@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 96KClpkhA1HtjYVB-PCNdFiI1ZCtDAOVGk6HsfgRI_Y
+  default_config_hash: ttzI8zXn1QsTLKpi2CMSha66uQDoWuxfHOoiz_x6R74
 name: file_entity_browser_small
 label: 'File Entity Browser small thumbnail'
 effects:

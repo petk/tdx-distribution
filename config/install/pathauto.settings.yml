@@ -12,4 +12,4 @@ case: true
 ignore_words: 'a, an, as, at, before, but, by, for, from, is, in, into, like, of, off, on, onto, per, since, than, the, this, that, to, up, via, with'
 update_action: 2
 _core:
-  default_config_hash: GcMSgi6uAfG5R_FGEsWUVCvRPkNIzPUH2bNVcx6H0JA
+  default_config_hash: DOb2Lx18W5y1muwSnnx3fTOUzLlX4vPJHRqR9fdrdBI

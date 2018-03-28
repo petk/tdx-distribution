@@ -9,6 +9,8 @@ dependencies:
     - content_moderation
     - path
     - text
+_core:
+  default_config_hash: T44egBT3xNpvtfXUlFg56GVGXfE5kFOBpkH8jU0leas
 id: node.basic_page.default
 targetEntityType: node
 bundle: basic_page
@@ -28,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

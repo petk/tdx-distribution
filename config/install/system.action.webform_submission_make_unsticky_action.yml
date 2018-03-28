@@ -5,7 +5,7 @@ dependencies:
   module:
     - webform
 _core:
-  default_config_hash: n4gTFiUsdp7gw6yWUlDbKFEasZLCgXWWCmm7eJejay0
+  default_config_hash: rTuvgAqdb4CNoFXYJE4rEUD7wXdL6PSrwCo-kcDTsRA
 id: webform_submission_make_unsticky_action
 label: 'Unstar/unflag submission'
 type: webform_submission

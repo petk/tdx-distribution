@@ -10,6 +10,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_slider
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: pCMUS1tb_1X0j8nTavefXBpNwow7kW4Y6tfZq_fgtGM
 id: node.landing_page.field_landing_page_components
 field_name: field_landing_page_components
 entity_type: node

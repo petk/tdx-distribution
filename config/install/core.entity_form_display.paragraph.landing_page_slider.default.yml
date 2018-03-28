@@ -8,6 +8,8 @@ dependencies:
   module:
     - content_moderation
     - paragraphs
+_core:
+  default_config_hash: VjYwAt440DMF8yIjhkMggdMmIf_PbYUlyxi67_dOPXY
 id: paragraph.landing_page_slider.default
 targetEntityType: paragraph
 bundle: landing_page_slider

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.landing_page
+_core:
+  default_config_hash: mDIF9Dlpe5AOKHA7Ua9RX6ac3BMBLNGAUW7dfZcEs1I
 id: node.landing_page.promote
 field_name: promote
 entity_type: node

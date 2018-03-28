@@ -1,0 +1,14 @@
+uuid: bbbb3cc2-b017-4638-8d71-0ab353d3f6a0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: wVEux12_njUlvhlmf01U-s63sWQrh9TB4A8I3BeIvXU
+id: country_names
+label: 'Country names'
+category: Geographic
+likert: false
+options: ''

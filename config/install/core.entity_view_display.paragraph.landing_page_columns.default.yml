@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_columns
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: nqQ1F4yv5n6ajUr25jDKb5ixVHYwItg3A3UvaD0YnUQ
 id: paragraph.landing_page_columns.default
 targetEntityType: paragraph
 bundle: landing_page_columns

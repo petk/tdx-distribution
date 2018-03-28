@@ -1,9 +1,9 @@
 uuid: d18d0fc3-0f1d-433a-adf4-77602bd73cb4
 langcode: en
 status: true
-dependencies:
-  content:
-    - 'file:file:43e931de-3192-4d6f-bfab-8cbe7c519612'
+dependencies: {  }
+_core:
+  default_config_hash: vI-JW_gdxPrmFvG6bnHi8T4bPXhHKBU5BEWtBRo2E3k
 id: landing_page_list
 label: Listing
 icon_uuid: 43e931de-3192-4d6f-bfab-8cbe7c519612

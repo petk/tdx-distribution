@@ -9,6 +9,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: ZMQrZsL9Lg-sQIQbXJ6kLNNq4giNB8vTbdkIDE7_ICw
 id: node.basic_page.teaser
 targetEntityType: node
 bundle: basic_page
@@ -25,4 +27,6 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  addtoany: true
+  langcode: true

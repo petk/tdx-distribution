@@ -5,6 +5,8 @@ dependencies:
   module:
     - ctools
     - taxonomy
+_core:
+  default_config_hash: wZm94qM1SZVAfeO3GGzsn6n2h73_WP6oekGnZb7G9yU
 id: blog_categories
 label: 'Blog categories'
 type: 'canonical_entities:taxonomy_term'

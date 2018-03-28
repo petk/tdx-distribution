@@ -1,9 +1,9 @@
 uuid: 6d26c632-fbb4-4635-9095-04174fefb61b
 langcode: en
 status: true
-dependencies:
-  content:
-    - 'file:file:7a47e71c-84a5-4d1c-895c-fe820ff91c3a'
+dependencies: {  }
+_core:
+  default_config_hash: 9AAMqm516cFzsFjsI8qxL7fcyp2SpBlCAvX5qEDAvfc
 id: landing_page_form
 label: Form
 icon_uuid: 7a47e71c-84a5-4d1c-895c-fe820ff91c3a

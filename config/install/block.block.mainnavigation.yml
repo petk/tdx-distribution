@@ -8,6 +8,8 @@ dependencies:
     - system
   theme:
     - bartik
+_core:
+  default_config_hash: RvFPrFLlOJCZXUAn9HmaJkUD8plc29tjhJxWqEvVO6o
 id: mainnavigation
 theme: bartik
 region: primary_menu

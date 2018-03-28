@@ -11,7 +11,7 @@ dependencies:
     - file_browser
     - user
 _core:
-  default_config_hash: wORdVB_tAnP19NdQWb5im8Oe_TBtiwjwOnCIwl0UQbo
+  default_config_hash: yXhaYWi67P6u8HKCc99FXxaenuOS8kuiPTVzqMVQdmo
 id: file_entity_browser
 label: 'File Entity Browser'
 module: views

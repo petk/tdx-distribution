@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.slide
+_core:
+  default_config_hash: _ydnZXEmgX24soZEVsuKIwYTz4y9WqFpMHQEWIQVKys
 id: paragraph.slide.field_title
 field_name: field_title
 entity_type: paragraph

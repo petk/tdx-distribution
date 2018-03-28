@@ -8,6 +8,8 @@ dependencies:
   module:
     - content_moderation
     - text
+_core:
+  default_config_hash: zUPiHAelc_eC15cfV1uPm_js7Cj-vV53ySIrRgJcW-Q
 id: block_content.basic_block.default
 targetEntityType: block_content
 bundle: basic_block
@@ -29,6 +31,13 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

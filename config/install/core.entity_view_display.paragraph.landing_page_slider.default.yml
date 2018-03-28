@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_slider
   module:
     - slick_paragraphs
+_core:
+  default_config_hash: 3ArhZSkZgyJaZxozOtnRS0gisGouEM9nykp8dhacTHk
 id: paragraph.landing_page_slider.default
 targetEntityType: paragraph
 bundle: landing_page_slider
@@ -17,23 +19,15 @@ content:
     weight: 0
     label: above
     settings:
-      optionset: default
-      skin: ''
       view_mode: default
-      cache: 0
-      current_view_mode: default
       override: false
-      overridables:
-        arrows: '0'
-        autoplay: '0'
-        dots: '0'
-        draggable: '0'
-        infinite: '0'
-        mouseWheel: '0'
-        randomize: '0'
-        variableWidth: '0'
+      overridables: {  }
       skin_arrows: ''
       skin_dots: ''
+      cache: 0
+      current_view_mode: ''
+      optionset: default
+      skin: ''
       style: ''
     third_party_settings: {  }
     region: content

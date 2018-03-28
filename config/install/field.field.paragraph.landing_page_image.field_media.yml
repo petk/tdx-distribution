@@ -1,0 +1,28 @@
+uuid: 90845b6b-6a71-446d-b7d3-cd476dbf0af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.image
+    - paragraphs.paragraphs_type.landing_page_image
+id: paragraph.landing_page_image.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: landing_page_image
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

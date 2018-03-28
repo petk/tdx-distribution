@@ -7,7 +7,7 @@ dependencies:
   module:
     - simplenews
 _core:
-  default_config_hash: '-FGoXJQMTtfhnYhAdYmmB815lFLwEn09sI0nyn2EbKM'
+  default_config_hash: a6GUa8huqAADQEL79u-Quwywy4TKfQNtWS0UBJGyUqs
 id: simplenews_subscriber.simplenews_subscriber.subscriptions
 field_name: subscriptions
 entity_type: simplenews_subscriber

@@ -1,4 +1,4 @@
-uuid: 79dceb08-b3d2-4ed1-a2ce-7eb204e39453
+uuid: eedd3b8b-8a6f-4f83-a15d-96ed6c59e483
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - stark
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+  default_config_hash: nbJOyRNT8wa92-okZcpjGXTDoVlTzJrglwZa7ihvgkA
 id: stark_messages
 theme: stark
-region: highlighted
-weight: 0
+region: sidebar_first
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

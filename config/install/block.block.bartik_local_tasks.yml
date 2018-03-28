@@ -1,15 +1,17 @@
-uuid: 11d918be-eb79-444e-b6a9-c7e0706d8da3
+uuid: ca178664-c957-419a-b96e-3eb1849f49fc
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools
   theme:
     - bartik
 _core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+  default_config_hash: E74Z-9kjEpmDJ1NmnbFoFTpVNMPuSAmWyoBRuAf337M
 id: bartik_local_tasks
 theme: bartik
-region: breadcrumb
-weight: -3
+region: header
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,13 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

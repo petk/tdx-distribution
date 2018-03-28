@@ -7,7 +7,7 @@ dependencies:
   theme:
     - adminimal_theme
 _core:
-  default_config_hash: YqKTtloWJ8FjLtfVNfrHaK6kVgxT67lC1cJ3j6i6WLo
+  default_config_hash: HYv8ImK2LY3pmFUqJ5Uhavc0_lfQz_viORDISa1GNFE
 id: adminimal_theme_messages
 theme: adminimal_theme
 region: highlighted

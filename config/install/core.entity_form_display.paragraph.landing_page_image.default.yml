@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.browse_files_modal
-    - field.field.paragraph.landing_page_image.field_image
+    - entity_browser.browser.media_entity_browser
+    - field.field.paragraph.landing_page_image.field_media
     - field.field.paragraph.landing_page_image.field_paragraph_column
     - field.field.paragraph.landing_page_image.field_style
     - paragraphs.paragraphs_type.landing_page_image
@@ -19,7 +19,7 @@ third_party_settings:
         - field_paragraph_column
         - field_style
       parent_name: ''
-      weight: 20
+      weight: 1
       format_type: html_element
       format_settings:
         id: ''
@@ -32,23 +32,26 @@ third_party_settings:
         effect: none
         speed: fast
       label: Settings
+_core:
+  default_config_hash: AqgV8zI5oEGgPOs6fycnOBApQ-VOPQAZpPiwX5pwcjA
 id: paragraph.landing_page_image.default
 targetEntityType: paragraph
 bundle: landing_page_image
 mode: default
 content:
-  field_image:
-    weight: 101
+  field_media:
+    weight: 0
     settings:
-      entity_browser: browse_files_modal
+      entity_browser: media_entity_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
       field_widget_remove: true
       open: true
       selection_mode: selection_append
-      preview_image_style: thumbnail
-      field_widget_edit: true
-      view_mode: default
+      field_widget_display_settings:
+        view_mode: teaser
     third_party_settings: {  }
-    type: entity_browser_file
+    type: entity_browser_entity_reference
     region: content
   field_paragraph_column:
     weight: 102
@@ -60,11 +63,11 @@ content:
     weight: 103
     settings: {  }
     third_party_settings: {  }
-    type: options_buttons
+    type: options_select
     region: content
   moderation_state:
     type: moderation_state_default
-    weight: 100
+    weight: 2
     settings: {  }
     region: content
     third_party_settings: {  }

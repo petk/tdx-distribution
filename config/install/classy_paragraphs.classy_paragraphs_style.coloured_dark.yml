@@ -2,6 +2,8 @@ uuid: 152a50d6-8602-4271-8649-ba5cfee162e5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 0A9fl96NkbwbZnKj2YTQLwH-kc97TtGCKTOU1-Q074U
 id: coloured_dark
 label: 'Coloured dark'
 classes: coloured-dark

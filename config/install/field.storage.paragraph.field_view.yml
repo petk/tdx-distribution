@@ -6,6 +6,8 @@ dependencies:
     - paragraphs
     - views
     - viewsreference
+_core:
+  default_config_hash: TN_puumnO-D4aczbCGu4WSNLQL0XV5Bkw9yKv2VWoF0
 id: paragraph.field_view
 field_name: field_view
 entity_type: paragraph

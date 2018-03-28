@@ -7,7 +7,7 @@ dependencies:
   theme:
     - cotailored_wireframe
 _core:
-  default_config_hash: 3IPajlCkPyMhAGNXkhgdf5XCjy8J33g_WS2vW1JBzvc
+  default_config_hash: CmKOS34arB8Hc_7vdJZ7r4w6r69j5OMTxpziVPZ7oNg
 id: cotailored_wireframe_content
 theme: cotailored_wireframe
 region: content

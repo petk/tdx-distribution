@@ -6,6 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
+_core:
+  default_config_hash: 42XTeUFh99O-fzvN4f7QYTcU_aU8p2eFJmw5_6VK6G8
 id: node.field_landing_page_components
 field_name: field_landing_page_components
 entity_type: node

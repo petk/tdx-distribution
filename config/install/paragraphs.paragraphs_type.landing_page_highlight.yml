@@ -2,6 +2,8 @@ uuid: e7fe2ff7-e966-4d29-8ca3-9eb8e583856b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: MoCgVPjMl2dYB9selID13q7j9A2e-ONP4MkePtWvHqI
 id: landing_page_highlight
 label: Highlight
 icon_uuid: null

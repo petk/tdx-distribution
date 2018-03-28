@@ -31,6 +31,8 @@ third_party_settings:
         id: ''
         classes: settings
       label: Settings
+_core:
+  default_config_hash: hI5C_2ZaJuN5fo9yn_ysCdsA1ESEq4Sjjd3xuJTDF5c
 id: paragraph.landing_page_columns.default
 targetEntityType: paragraph
 bundle: landing_page_columns
@@ -38,7 +40,7 @@ mode: default
 content:
   field_landing_page_elements:
     type: paragraphs
-    weight: 3
+    weight: 0
     settings:
       title: Element
       title_plural: Elements
@@ -48,6 +50,9 @@ content:
       add_mode: modal
       form_display_mode: default
       default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
     third_party_settings: {  }
     region: content
   field_paragraph_container:
@@ -60,7 +65,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    type: options_buttons
+    type: options_select
     region: content
 hidden:
   created: true

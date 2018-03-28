@@ -86,13 +86,11 @@
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h2>
   {% endif %}
-  {{ title_suffix }}
 
   {% if display_submitted %}
     <footer class="node__meta">
@@ -111,10 +109,10 @@
         <h1>{{ label }}</h1>
         {{ date }}
       </div>
-      {{ content.field_cover_image }}
+      {{ content.field_media_cover }}
     </div>
 
-    {{ content|without('field_cover_image') }}
+    {{ content|without('field_media_cover') }}
   </div>
 
 </article>

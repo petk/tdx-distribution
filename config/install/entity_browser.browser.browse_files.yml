@@ -11,7 +11,7 @@ dependencies:
     - dropzonejs_eb_widget
     - views
 _core:
-  default_config_hash: N3y52bEZkiYEw6HW7b1KtTa3p_cZCsW75tHh8Mnbuz0
+  default_config_hash: 3Kg_99EZ8wanqcyfN7zHipUSAhmuiy_3Pc2ehlgq_wc
 name: browse_files
 label: 'Browser for files'
 display: iframe

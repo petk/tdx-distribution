@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
+  default_config_hash: 0kSy9MXEn9N4BLw-8-J6-Ix3f_AZ_OJBnReNmqaIjeU
 name: 'Plain text'
 format: plain_text
 weight: 10

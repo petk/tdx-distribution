@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: qwQWQgbuhNv7xOf1IqLGFVvMj1BypWb2zQ0F2hnvqQk
 id: blog
 label: Blog
 type: 'canonical_entities:node'

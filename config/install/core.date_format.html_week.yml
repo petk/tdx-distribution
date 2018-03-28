@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+  default_config_hash: xBWDqPKoQCvIpD4dmck0c4bJY8CxL5cA5OdS_sW-ZMU
 id: html_week
 label: 'HTML Week'
 locked: true

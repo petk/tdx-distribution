@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.basic_block.body
   module:
     - text
+_core:
+  default_config_hash: 08BaXvfh5Xe2GTGGE0XGsprak_1lkx4siM5VVB8gnQo
 id: block_content.basic_block.default
 targetEntityType: block_content
 bundle: basic_block
@@ -19,4 +21,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  langcode: true

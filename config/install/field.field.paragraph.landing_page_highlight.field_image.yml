@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.landing_page_highlight
   module:
     - image
+_core:
+  default_config_hash: E0NDozgeo231_qdvuVKCu0k-krS5O3pEooxXAOHYvhc
 id: paragraph.landing_page_highlight.field_image
 field_name: field_image
 entity_type: paragraph

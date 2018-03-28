@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_category
     - node.type.blog_post
     - taxonomy.vocabulary.blog_categories
+_core:
+  default_config_hash: N9XAJ6xdzJAtqbu3nw_cBndfBYYQsxzLls4Hikdmeg8
 id: node.blog_post.field_category
 field_name: field_category
 entity_type: node

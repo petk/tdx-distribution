@@ -2,6 +2,8 @@ uuid: 306cd8f3-7052-4de4-a0ea-c886abab0dca
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 2aXHukI_LGBQcjtlnJIlDbygC8TVfNFJ6d9z8Aanh14
 id: editor
 label: Editor
 weight: 2

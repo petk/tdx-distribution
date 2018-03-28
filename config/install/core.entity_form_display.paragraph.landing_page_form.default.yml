@@ -31,6 +31,8 @@ third_party_settings:
         effect: none
         speed: fast
       label: Settings
+_core:
+  default_config_hash: 8GmyK47OcPFXgeZnRL94cXgJUJgIfnHJj24q6Z-sJI0
 id: paragraph.landing_page_form.default
 targetEntityType: paragraph
 bundle: landing_page_form

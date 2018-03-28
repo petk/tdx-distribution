@@ -1,9 +1,9 @@
 uuid: 35c8cba2-c5e0-4332-aca6-20cec2b24c2d
 langcode: en
 status: true
-dependencies:
-  content:
-    - 'file:file:7551b460-55ba-42df-bd44-59a865fde3bc'
+dependencies: {  }
+_core:
+  default_config_hash: I6OdPo0Ujuq7fyw65Y8XUKrg7eYtZ5o2hn8sWl5s4kc
 id: landing_page_image
 label: Image
 icon_uuid: 7551b460-55ba-42df-bd44-59a865fde3bc

@@ -2,6 +2,8 @@ uuid: a9400ebe-6ea9-4d43-9ff8-5edfba102896
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: iQKAUgzs9LuOMbmsk03VcKiCXXGV3luUTrz8ftNJLNU
 id: slide
 label: Slide
 icon_uuid: null

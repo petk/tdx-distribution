@@ -3,77 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.landing_page_box.field_image
     - field.field.paragraph.landing_page_box.field_link
+    - field.field.paragraph.landing_page_box.field_media
     - field.field.paragraph.landing_page_box.field_text
     - field.field.paragraph.landing_page_box.field_title
     - field.field.paragraph.landing_page_box.field_type
     - paragraphs.paragraphs_type.landing_page_box
   module:
-    - blazy
     - link
     - options
     - text
+_core:
+  default_config_hash: FCiG9h1qyRDzGI4QZf_Ot--raAd5-6yzxB3mGuzEeCg
 id: paragraph.landing_page_box.default
 targetEntityType: paragraph
 bundle: landing_page_box
 mode: default
 content:
-  field_image:
-    weight: 0
-    label: hidden
-    settings:
-      style: ''
-      image_style: paragraph_box
-      thumbnail_style: ''
-      responsive_image_style: ''
-      media_switch: ''
-      ratio: ''
-      grid: null
-      grid_medium: null
-      grid_small: null
-      sizes: ''
-      breakpoints:
-        xs:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        sm:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        md:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        lg:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-        xl:
-          image_style: ''
-          width: ''
-          breakpoint: ''
-      current_view_mode: default
-      background: false
-      caption:
-        title: '0'
-        alt: '0'
-      grid_header: ''
-      iframe_lazy: true
-      icon: ''
-      layout: ''
-      view_mode: ''
-      cache: 0
-      optionset: default
-      skin: ''
-      box_caption: ''
-      box_caption_custom: ''
-      box_style: ''
-      box_media_style: ''
-    third_party_settings: {  }
-    type: blazy
-    region: content
   field_link:
     weight: 3
     label: hidden
@@ -85,6 +31,15 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_media:
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
     region: content
   field_text:
     weight: 1
@@ -103,7 +58,7 @@ content:
     region: content
   field_type:
     weight: 4
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_default

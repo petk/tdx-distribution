@@ -7,6 +7,8 @@ dependencies:
     - node.type.blog_post
   module:
     - image
+_core:
+  default_config_hash: HOoBt5XVfg_1fib9wBh8qmqsnpEFIk9QHkiIBUNjt2Y
 id: node.blog_post.field_cover_image
 field_name: field_cover_image
 entity_type: node

@@ -6,7 +6,7 @@ dependencies:
     - node
     - simplenews
 _core:
-  default_config_hash: WH-ddyUo4oWNnk6HaulK2RLdPTM4CV0xBZSj5HFqAnQ
+  default_config_hash: P_JUYcjvem0FYzZGH8fCvjYPVf9ieEQVVTEg8A1k-NI
 id: node.simplenews_issue
 field_name: simplenews_issue
 entity_type: node

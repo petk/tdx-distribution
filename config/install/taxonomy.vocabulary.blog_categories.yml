@@ -2,6 +2,8 @@ uuid: defea3a9-4e40-4e99-a8bc-062aa1447459
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ITh6i5ZxXdEMCyYcsnGoiixZ_1JVfZQeaUlif7MK49c
 name: 'Blog Categories'
 vid: blog_categories
 description: ''

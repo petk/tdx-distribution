@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.landing_page_box
+_core:
+  default_config_hash: rNvo_YwOXi4JR5yKyd2lebLOB6cg8e-ZEQwzXANDNHA
 id: paragraph.landing_page_box.field_title
 field_name: field_title
 entity_type: paragraph

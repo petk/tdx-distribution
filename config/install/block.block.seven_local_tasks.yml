@@ -1,0 +1,33 @@
+uuid: 64534b19-f370-44c8-852e-23be230e5602
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - seven
+_core:
+  default_config_hash: E74Z-9kjEpmDJ1NmnbFoFTpVNMPuSAmWyoBRuAf337M
+id: seven_local_tasks
+theme: seven
+region: header
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

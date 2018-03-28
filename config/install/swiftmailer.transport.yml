@@ -6,7 +6,7 @@ sendmail_path: /usr/sbin/sendmail
 sendmail_mode: bs
 spool_directory: ''
 _core:
-  default_config_hash: 0SeYZshzgoabDrbz-junYqeQOQ9BypPv2gaFcnqKy0M
+  default_config_hash: iNXAy1oype48VCk_S30Wx5r485W-7zkbT9sU1TR8k2s
 smtp_credential_provider: swiftmailer
 smtp_credentials:
   swiftmailer:

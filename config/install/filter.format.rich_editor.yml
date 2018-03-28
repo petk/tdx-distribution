@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - entity_embed
+_core:
+  default_config_hash: b39dOg-GFs89yKgHr2vBSYyjl4QlW4BF6Y2b7WrvqqY
 name: 'Rich editor'
 format: rich_editor
 weight: 0

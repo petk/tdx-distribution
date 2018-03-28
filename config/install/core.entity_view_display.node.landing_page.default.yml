@@ -10,6 +10,8 @@ dependencies:
     - entity_reference_revisions
     - text
     - user
+_core:
+  default_config_hash: k2aMwcDuPD8Zvy-kISlmtIAsjPjdceuTdHNa2dspzzo
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
@@ -32,4 +34,6 @@ content:
     type: text_default
     region: content
 hidden:
+  addtoany: true
+  langcode: true
   links: true

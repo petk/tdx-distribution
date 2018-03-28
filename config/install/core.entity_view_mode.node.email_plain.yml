@@ -8,7 +8,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: rCDGCl6pMFu6zZuErLQggKvmawfFDysFcZNCDL72U4M
+  default_config_hash: 4v3z7b3FNbNhV687fyk24bbEt_QBzWItU3U1d3N4n1I
 id: node.email_plain
 label: 'Email: Plain'
 targetEntityType: node

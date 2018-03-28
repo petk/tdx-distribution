@@ -39,7 +39,7 @@
  */
 #}
 
-{% set paragraph_bg = file_url(content.field_background_image['#items'].entity.uri.value) %}
+{% set paragraph_bg = content.field_media_background.0 %}
 
 {%
   set classes = [
@@ -51,11 +51,13 @@
   <div{{ attributes.addClass(classes) }} style="background-image: url('{{ paragraph_bg }}')">
     {% block content %}
       <div class="inner">
+        {{ content.contextual_links }}
         <div class="text">
           <h2>{{ paragraph.field_title.value }}</h2>
           {{ content.field_text }}
+
         </div>
-        {{ content.field_image }}
+        {{ content.field_media }}
       </div>
     {% endblock %}
   </div>

@@ -1,15 +1,17 @@
-uuid: 7f78f763-fab0-4849-a01b-56323649101d
+uuid: 0f23913c-8a0a-4c7e-9332-be1572df38fe
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools
   theme:
     - stark
 _core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+  default_config_hash: E74Z-9kjEpmDJ1NmnbFoFTpVNMPuSAmWyoBRuAf337M
 id: stark_local_tasks
 theme: stark
-region: content
-weight: -20
+region: sidebar_first
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,13 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,4 +1,4 @@
-uuid: a2ca8c78-3f6a-4b29-8975-31fc2f12e03b
+uuid: b1db7439-809c-4dfd-aff9-defa90050197
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+  default_config_hash: nbJOyRNT8wa92-okZcpjGXTDoVlTzJrglwZa7ihvgkA
 id: bartik_messages
 theme: bartik
-region: highlighted
-weight: 0
+region: header
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

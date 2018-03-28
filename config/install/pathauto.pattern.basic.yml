@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: RM8dpbWsFjLtNX7yWveGi_M4Yscr43DGs6hNCeiBAvo
 id: basic
 label: Basic
 type: 'canonical_entities:node'

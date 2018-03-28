@@ -2,6 +2,8 @@ uuid: 7569c2d8-af12-43cf-84cb-943849f52a26
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: cGxwoGkuHXiX2Q0DxUC7q7p2BTxV0l8HB1xd351WGHA
 id: coloured
 label: 'Coloured light'
 classes: coloured-light

@@ -8,6 +8,8 @@ dependencies:
     - views.view.paragraph_blogs
   module:
     - viewsreference
+_core:
+  default_config_hash: zCg92Fwd9n-T61HTfSsM_nNn3l2Zf6Z2KJ3d58Ws1RY
 id: paragraph.landing_page_list.field_view
 field_name: field_view
 entity_type: paragraph

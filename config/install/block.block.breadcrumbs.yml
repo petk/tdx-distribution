@@ -6,6 +6,8 @@ dependencies:
     - system
   theme:
     - bartik
+_core:
+  default_config_hash: P7y5SM_RnxEhUinE7J1T4AG2uH_viljMLrCY30m9LdM
 id: breadcrumbs
 theme: bartik
 region: breadcrumb

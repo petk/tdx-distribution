@@ -5,7 +5,7 @@ dependencies:
   module:
     - simplenews
 _core:
-  default_config_hash: _80qceRjNVCStX2wbyle-6zMazNn3VsvHpwLRV3Gr5M
+  default_config_hash: p0Ya-e9Ux5Y1gGvR-Dpp8oCcZ774j_KqbV3o7FlLl0c
 id: simplenews_send_action
 label: 'Send newsletter issue'
 type: node

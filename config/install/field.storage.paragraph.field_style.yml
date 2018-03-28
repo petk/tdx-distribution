@@ -5,6 +5,8 @@ dependencies:
   module:
     - classy_paragraphs
     - paragraphs
+_core:
+  default_config_hash: mg2OEYtnOS6YBn6wKztTRh7bYHQFcjry4kgD8A1_Qts
 id: paragraph.field_style
 field_name: field_style
 entity_type: paragraph
@@ -13,7 +15,7 @@ settings:
   target_type: classy_paragraphs_style
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

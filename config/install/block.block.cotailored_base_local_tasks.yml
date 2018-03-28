@@ -1,0 +1,33 @@
+uuid: 98a8913f-e564-41ae-823b-50ff5cd08f97
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - cotailored_base
+_core:
+  default_config_hash: E74Z-9kjEpmDJ1NmnbFoFTpVNMPuSAmWyoBRuAf337M
+id: cotailored_base_local_tasks
+theme: cotailored_base
+region: precontent
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      blog_post: blog_post
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
