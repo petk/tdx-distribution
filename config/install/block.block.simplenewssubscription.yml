@@ -6,11 +6,11 @@ dependencies:
     - ctools
     - simplenews
   theme:
-    - cotailored_wireframe
+    - tdx_wireframe
 _core:
   default_config_hash: cYIZ9O_KpvL4Yfpz8lM1_RBIJWAj_qQW4yW1bHiP9bM
 id: simplenewssubscription
-theme: cotailored_wireframe
+theme: tdx_wireframe
 region: sidebar
 weight: 0
 provider: null

@@ -1,0 +1,28 @@
+# Theme information
+name: tdx_wireframe
+type: theme
+description: TDX wireframe theme
+core: 8.x
+version: 1.x
+base theme: tdx_base
+
+
+# Include libraries
+libraries:
+  - tdx_wireframe/global-css
+  - tdx_wireframe/global-js
+
+# Ckeditor styles
+ckeditor_stylesheets:
+  - assets/stylesheets/application.css
+
+# Regions
+regions:
+  status: 'Status'
+  header: 'Header'
+  navigation: 'Navigation'
+  precontent: 'Precontent'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  copyright: 'Copyright'

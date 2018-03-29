@@ -83,6 +83,6 @@ themes:
   - bartik
   - stark
   - adminimal_theme
-  - cotailored_wireframe
-  - cotailored_base
-  - cotailored_adminal
+  - tdx_wireframe
+  - tdx_base
+  - tdx_adminal

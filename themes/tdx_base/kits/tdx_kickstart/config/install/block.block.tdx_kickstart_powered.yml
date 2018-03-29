@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TDX_BASE_SUBTHEME_MACHINE_NAME
+id: TDX_BASE_SUBTHEME_MACHINE_NAME_powered
+theme: TDX_BASE_SUBTHEME_MACHINE_NAME
+region: copyright
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

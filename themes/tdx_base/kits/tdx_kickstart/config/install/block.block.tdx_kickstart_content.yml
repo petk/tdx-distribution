@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TDX_BASE_SUBTHEME_MACHINE_NAME
+id: TDX_BASE_SUBTHEME_MACHINE_NAME_content
+theme: TDX_BASE_SUBTHEME_MACHINE_NAME
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

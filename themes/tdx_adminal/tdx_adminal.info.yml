@@ -1,0 +1,22 @@
+name: TDX Adminimal
+type: theme
+description: 'Drupal administration theme'
+core: 8.x
+base theme: adminimal_theme
+
+libraries:
+  - tdx_adminal/global-styling
+  - tdx_adminal/global-js
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first

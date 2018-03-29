@@ -5,11 +5,11 @@ dependencies:
   module:
     - ctools
   theme:
-    - cotailored_wireframe
+    - tdx_wireframe
 _core:
   default_config_hash: kAIaRFqZw5jZN3alkDWPAsBfhJGCMwhLYBCXzgivsXM
 id: bascipageblock
-theme: cotailored_wireframe
+theme: tdx_wireframe
 region: sidebar
 weight: 0
 provider: null

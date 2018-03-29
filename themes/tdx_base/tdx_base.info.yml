@@ -1,0 +1,22 @@
+# Theme information
+name: TDX Base
+type: theme
+description: TDX base theme
+core: 8.x
+version: 1.x
+
+# Include libraries
+libraries:
+  - tdx_base/global-css
+  - tdx_base/global-js
+
+# Regions
+regions:
+  status: 'Status'
+  header: 'Header'
+  navigation: 'Navigation'
+  precontent: 'Precontent'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  copyright: 'Copyright'

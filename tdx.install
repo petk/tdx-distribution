@@ -24,15 +24,15 @@ function tdx_install() {
   // Set frontend theme.
   \Drupal::configFactory()
     ->getEditable('system.theme')
-    ->set('default', 'cotailored_wireframe')
-    ->set('admin', 'cotailored_adminal')
+    ->set('default', 'tdx_wireframe')
+    ->set('admin', 'tdx_adminal')
     ->save(TRUE);
 
   $profilePath = drupal_get_path('profile', 'tdx');
   \Drupal::configFactory()
-    ->getEditable('cotailored_wireframe.settings')
+    ->getEditable('tdx_wireframe.settings')
     ->set('logo.use_default', FALSE)
-    ->set('logo.path', $profilePath . '/themes/cotailored_wireframe/logo.svg')
+    ->set('logo.path', $profilePath . '/themes/tdx_wireframe/logo.svg')
     ->save(TRUE);
 
   // Assign user 1 the "administrator" role.
