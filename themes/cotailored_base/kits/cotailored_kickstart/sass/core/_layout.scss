@@ -4,7 +4,8 @@
 }
 
 .container,
-.field--name-field-landing-page-description {
+.field--name-field-landing-page-description,
+.view-frontpage  {
   @include container;
   position: relative;
   margin: 0 auto;
@@ -44,4 +45,21 @@ main[role="main"] {
 
 .clearfix:after {
   display: none;
+}
+
+
+.view-frontpage {
+  margin: 40px auto;
+  ul.links {
+    margin: 20px 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      a {
+        @include cta(dark);
+      }
+    }
+  }
 }

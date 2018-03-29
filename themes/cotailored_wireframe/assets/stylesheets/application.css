@@ -287,7 +287,8 @@ input.form-submit {
   overflow: hidden; }
 
 .container, body.page-node-type-basic-page main, body.page-node-type-blog-post main, body.path-webform main, body.path-user main, body.path-taxonomy main, .view-blog[class*="view-display-id-page"], .view-taxonomy-term[class*="view-display-id-page"],
-.field--name-field-landing-page-description {
+.field--name-field-landing-page-description,
+.view-frontpage {
   padding-left: 1.5625rem;
   padding-right: 1.5625rem;
   position: relative;
@@ -320,6 +321,38 @@ main[role="main"] {
 
 .clearfix:after {
   display: none; }
+
+.view-frontpage {
+  margin: 40px auto; }
+  .view-frontpage ul.links {
+    margin: 20px 0;
+    padding: 0; }
+    .view-frontpage ul.links li {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .view-frontpage ul.links li a {
+        position: relative;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 3px;
+        transition: .2s all;
+        font-weight: 700;
+        color: #484dbd;
+        color: white;
+        background: #484dbd; }
+        .view-frontpage ul.links li a:hover {
+          color: white;
+          text-decoration: none;
+          transition: .2s all; }
+        .view-frontpage ul.links li a:hover {
+          background: #333; }
 
 header[role="header"] {
   position: relative;
