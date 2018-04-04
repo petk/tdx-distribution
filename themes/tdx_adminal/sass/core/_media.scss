@@ -1,0 +1,18 @@
+// ========================================
+//
+// @file _media.scss
+// Media styles
+//
+// ========================================
+
+
+// Media browser thumbnail style corrections
+.media-entity-browser-actions {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  padding: 10px;
+  width: 100%;
+  background: white;
+  border-top: 1px solid #b8b8b8;
+}
