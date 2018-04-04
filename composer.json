@@ -63,7 +63,6 @@
         "drupal/entity_browser": "2.0-alpha2",
         "drupal/entity_usage": "^1.0@alpha",
         "drupal/field_group": "^1.0",
-        "drupal/file_browser": "^1.1",
         "drupal/google_analytics": "^2.2",
         "drupal/inline_entity_form": "^1.0@beta",
         "drupal/install_profile_generator": "2.x-dev",
