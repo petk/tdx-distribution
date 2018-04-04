@@ -56,7 +56,6 @@ dependencies:
   - entity_reference_revisions
   - entity_browser_entity_form
   - field_group
-  - file_browser
   - google_analytics
   - inline_entity_form
   - install_profile_generator
