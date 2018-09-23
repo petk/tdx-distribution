@@ -22,21 +22,10 @@
     ],
     "extra": {
         "installer-types": ["bower-asset"],
-        "installer-paths": {
-            "drupal/classy_paragraphs": {
-                "Classy paragraphs choose and order": "https://www.drupal.org/files/issues/choose_and_order-2830403-20.patch"
-            },
-            "drupal/core": {
-                "Allow a profile to be installed from existing config": "https://www.drupal.org/files/issues/2788777-3-129.patch"
-            }
-        },
         "patches": {
             "drupal/classy_paragraphs": {
                 "Classy paragraphs choose and order": "https://www.drupal.org/files/issues/choose_and_order-2830403-20.patch"
             },
-            "drupal/core": {
-                "Allow a profile to be installed from existing config": "https://www.drupal.org/files/issues/2788777-3-129.patch"
-            }
         }
     },
     "require": {
