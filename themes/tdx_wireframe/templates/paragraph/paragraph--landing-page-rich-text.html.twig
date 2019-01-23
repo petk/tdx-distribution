@@ -1,0 +1,20 @@
+
+{% set pargraph_col = paragraph.field_paragraph_column.value %}
+
+{%
+  set classes = [
+    'paragraph',
+    pargraph_col,
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+  ]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    <div class="inner">
+      {% block content %}
+        {{ content }}
+      {% endblock %}
+    </div>
+  </div>
+{% endblock paragraph %}

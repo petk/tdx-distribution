@@ -1,0 +1,24 @@
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+
+    {{ content.field_media }}
+
+    <div class="container">
+      <div class="inner">
+        <h2>{{ paragraph.field_title.value }}</h2>
+        {{ content.field_text }}
+        {{ content.field_link }}
+      </div>
+    </div>
+
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

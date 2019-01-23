@@ -1,0 +1,50 @@
+.paragraph--type--landing-page-highlight {
+
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  &:after {
+    @include overlay($color-white, 0.7);
+  }
+
+  .inner {
+    @include container;
+    @extend %flex-center-vertical;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    h2 {
+      @include font-size(3.8);
+      margin: 0 0 20px;
+    }
+
+    .field--name-field-text {
+      @include font-size(2);
+    }
+
+    .text {
+      flex: 1 1 0;
+      order: 2;
+      @media (min-width: $screen-sm-min) {
+        order: 1;
+      }
+    }
+
+    .field--name-field-media {
+      order: 1;
+      flex: auto;
+      @media (min-width: $screen-sm-min) {
+        order: 2;
+        flex: 0 0 50%;
+      }
+    }
+  }
+}

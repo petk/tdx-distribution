@@ -1,11 +1,11 @@
-uuid: 695fadfe-7024-4a6b-b9f7-f37612bfd1d5
+uuid: 5a3c5880-0cb8-4f12-a5d7-389e041aeba9
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: 6pKGMQXnNQSE01iqtO7r9GXGIZTHWoBHHWVDFo1vm70
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
 label: 'Remove content from front page'
 type: node
